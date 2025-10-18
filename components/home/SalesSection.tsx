@@ -39,7 +39,7 @@ const SalesSection = () => {
                         <div className="flex flex-row justify-evenly rounded-full w-full md:w-1/2 p-2 border-site-secondary border-4">
                             <FaCalendarAlt className="size-20" />
                             <span>
-                                Open until <b>July 31</b>
+                                Open until <b>XXX</b>
                             </span>
                         </div>
                     </div>
@@ -86,17 +86,16 @@ const SalesSection = () => {
                     <div className="flex flex-row justify-evenly rounded-2xl md:rounded-full w-full p-2 gap-4 border-site-secondary border-4">
                         <span className="flex flex-col items-center justify-center text-center">
                             <FaCalendarAlt className="size-20" />
-                            <b>June 22-23</b>
+                            <b>XXX</b>
                         </span>
                         <div className="flex flex-col justify-center">
                             <span className="flex flex-row items-center gap-4">
                                 <FaLocationDot className="size-20" />
-                                Mactan LLC, Bo&apos;s Coffee, Pueblo Verde
-                                (1-5PM)
+                                XXXX
                             </span>
                             <span className="flex flex-row items-center gap-4">
                                 <FaLocationDot className="size-20" />
-                                IT Park, Workplace Cafe (3-7PM)
+                                XXXX
                             </span>
                         </div>
                     </div>
@@ -144,7 +143,7 @@ const SalesSection = () => {
                         <div className="flex flex-row justify-evenly rounded-full w-full md:w-1/2 p-2 border-site-secondary border-4">
                             <FaCalendarAlt className="size-20" />
                             <span>
-                                Open until <b>July 31</b>
+                                Open until <b>XXX</b>
                             </span>
                         </div>
                     </div>

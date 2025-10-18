@@ -13,9 +13,9 @@ import { EventTimer } from '@/components/home/EventTimer';
 const Home = () => {
     return (
         <>
-            <section>
+            {/* <section>
                 <HomePage />
-            </section>
+            </section> */}
 
             <section>
                 <EventDescription />

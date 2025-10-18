@@ -39,11 +39,7 @@ const EventDescription = () => {
                         annually in Cebu City, Philippines. <br />
                         <br />
                         Come join our event happening this{' '}
-                        <span className="font-bold">
-                            {' '}
-                            AUGUST 17-18, 2024{' '}
-                        </span>{' '}
-                        !
+                        <span className="font-bold"> XXX </span> !
                     </span>
                     <div className="flex flex-row text-site-secondary mt-7 sm:mt-16 gap-4">
                         <a

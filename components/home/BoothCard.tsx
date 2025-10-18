@@ -43,7 +43,7 @@ export function BoothCard({
     return (
         <div
             ref={sectionRef}
-            className="w-full py-6 sm:py-8 md:py-10 border-t-2 border-b-2 sm:border-t-4 sm:border-b-4 border-[#FFFFFF] transition-all duration-1000 ease-out"
+            className="w-screen py-6 sm:py-8 md:py-10 border-t-2 border-b-2 sm:border-t-4 sm:border-b-4 border-[#FFFFFF] transition-all duration-1000 ease-out"
             style={{
                 backgroundColor,
                 opacity: isVisible ? 1 : 0,

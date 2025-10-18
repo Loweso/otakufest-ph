@@ -6,7 +6,7 @@ import { BoothCard } from '@/components/home/BoothCard';
 
 const BoothSection = () => {
     return (
-        <div className="flex flex-col gap-7 md:gap-10 lg:gap-16 xl:gap-20 items-center justify-around text-justify bg-white w-full pt-10 md:pt-20 px-3 sm:px-10 md:px-20">
+        <div className="flex flex-col gap-7 md:gap-10 lg:gap-16 xl:gap-20 items-center justify-around text-justify bg-white w-screen pt-10 md:pt-20 px-3 sm:px-10 md:px-20">
             <div className="flex flex-col gap-7 xl:gap-10 text-site-main w-full items-center">
                 <Fade>
                     <p className="text-4xl md:text-6xl font-bold w-full mb-5">
