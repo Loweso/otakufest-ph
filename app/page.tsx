@@ -21,12 +21,20 @@ const Home = () => {
                 <EventDescription />
             </section>
 
-            <section>
-                <BoothSection />
-            </section>
-
             <section id="guestSection">
                 <GuestSection />
+            </section>
+
+            <section id="shirtSection">
+                <SalesSection />
+            </section>
+
+            <section id="eventSection">
+                <EventSection />
+            </section>
+
+            <section>
+                <BoothSection />
             </section>
 
             {/*
@@ -35,12 +43,6 @@ const Home = () => {
             </section>
             */}
 
-            <section id="eventSection">
-                <EventSection />
-            </section>
-            <section id="shirtSection">
-                <SalesSection />
-            </section>
             <section>
                 <SponsorSection />
             </section>
