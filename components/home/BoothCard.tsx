@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import { useEffect, useRef, useState } from 'react';
 import Marquee from 'react-fast-marquee';
 
 interface BoothCardProps {
@@ -23,32 +22,10 @@ export function BoothCard({
     buttonClassName = 'bg-[#8B4049] hover:bg-[#6D3238]',
     onButtonClick,
 }: BoothCardProps) {
-    const [isVisible, setIsVisible] = useState(false);
-    const sectionRef = useRef<HTMLDivElement>(null);
-
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    setIsVisible(true);
-                }
-            },
-            { threshold: 0.1 }
-        );
-
-        if (sectionRef.current) observer.observe(sectionRef.current);
-        return () => observer.disconnect();
-    }, []);
-
     return (
         <div
-            ref={sectionRef}
-            className="w-screen py-6 sm:py-8 md:py-10 border-t-2 border-b-2 sm:border-t-4 sm:border-b-4 border-[#FFFFFF] transition-all duration-1000 ease-out"
-            style={{
-                backgroundColor,
-                opacity: isVisible ? 1 : 0,
-                transform: isVisible ? 'translateX(0)' : 'translateX(-100px)',
-            }}
+            className="w-screen py-6 sm:py-8 md:py-10 border-t-2 border-b-2 sm:border-t-4 sm:border-b-4 border-[#FFFFFF]"
+            style={{ backgroundColor }}
         >
             <div className="mb-4 sm:mb-6 overflow-hidden max-w-6xl mx-auto">
                 <Marquee speed={40} gradient={false}>
@@ -62,7 +39,7 @@ export function BoothCard({
                                 alt={`${title} image ${index + 1}`}
                                 width={400}
                                 height={400}
-                                className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
+                                className="w-full h-full object-cover transition-transform duration-300"
                             />
                         </div>
                     ))}
@@ -81,7 +58,7 @@ export function BoothCard({
                 <div className="flex justify-center max-w-4xl mx-auto px-4">
                     <button
                         onClick={onButtonClick}
-                        className={`${buttonClassName} text-white px-6 py-2 sm:px-8 sm:py-2.5 md:px-10 md:py-3 text-sm sm:text-base font-semibold tracking-wide transition-colors cursor-pointer border-none rounded-xl w-full sm:w-auto max-w-xs`}
+                        className={`${buttonClassName} text-white px-6 py-2 sm:px-8 sm:py-2.5 md:px-10 md:py-3 text-sm sm:text-base font-semibold tracking-wide transition-transform duration-200 hover:scale-110 cursor-pointer border-none rounded-xl w-full sm:w-auto max-w-xs`}
                     >
                         {buttonText}
                     </button>

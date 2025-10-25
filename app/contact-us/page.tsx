@@ -14,7 +14,7 @@ const ContactUs = () => {
                 </span>
                 <Link
                     href={Routes.BUSINESS_INQUIRIES}
-                    className="inline-block text-site-main text-lg lg:text-xl font-bold underline leading-none hover:text-site-main/80 transition duration-200"
+                    className="inline-block text-site-main text-lg lg:text-xl font-bold underline leading-none hover:text-site-main/80 hover:scale-105 transition duration-200"
                 >
                     Inquire now!
                 </Link>

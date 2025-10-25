@@ -27,7 +27,7 @@ const Faqs = () => {
                         you&apos;d like clarifications,{' '}
                         <Link
                             href={Routes.CONTACT_US}
-                            className="underline underline-offset-4"
+                            className="underline underline-offset-4 hover:scale-105 duration-200 inline-block"
                         >
                             message us here!
                         </Link>

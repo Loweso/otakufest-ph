@@ -2,18 +2,17 @@ import React from 'react';
 import Image from 'next/image';
 import { SPONSOR, OF24_PAN } from '@/enums/imageUrls';
 import HomeSponsor from '@/components/home/SponsorImage';
-import { Fade } from 'react-awesome-reveal';
 
 const SponsorSection = () => {
     return (
-        <div className="flex flex-col  text-center w-full relative bg-cover bg-center overflow-hidden py-10 md:py-20 bg-theme">
-            <Fade>
-                <span className="text-site-main text-4xl md:text-6xl font-bold w-full">
-                    SPONSORS
-                </span>
-            </Fade>
+        <div className="flex flex-col text-center w-full relative bg-cover bg-center overflow-hidden py-10 md:py-20 bg-theme">
+            <span className="text-site-main text-4xl md:text-6xl font-bold w-full">
+                SPONSORS
+            </span>
+
             <div className="flex flex-col gap-5 justify-center items-center py-10 font-semibold xs:text-xs sm:text-md lg:text-xl z-10">
                 <div className="flex flex-wrap xs:flex-nowrap gap-2 xs:gap-2 sm:gap-3 md:gap-3 lg:gap-10 justify-center w-full">
+                    {/* Major Sponsors */}
                     <div className="flex flex-col gap-5 bg-[#3F0000]/[.38] p-5 rounded-2xl items-center w-[140px] xs:w-[120px] sm:w-[140px] md:w-[160px] lg:w-[240px]">
                         <p className="w-full">Major Sponsors</p>
                         <HomeSponsor
@@ -24,15 +23,17 @@ const SponsorSection = () => {
                         <HomeSponsor
                             imageUrl={SPONSOR.MY_LANGUAGE_CAFE}
                             aspect="aspect-[300/110]"
-                            width="w-32  xs:w-28 sm:w-32 md:w-36 lg:w-56"
+                            width="w-32 xs:w-28 sm:w-32 md:w-36 lg:w-56"
                         />
                         <HomeSponsor
                             imageUrl={SPONSOR.PNB}
                             aspect="aspect-[300/201]"
-                            width="w-32  xs:w-28 sm:w-32 md:w-36 lg:w-56"
+                            width="w-32 xs:w-28 sm:w-32 md:w-36 lg:w-56"
                         />
                     </div>
-                    <div className="flex flex-col gap-3 bg-[#3F0000]/[.38] p-5 rounded-2xl items-center w-[140px] xs:w-[120px] sm:w-[140px] md:w-[160px] lg:w-[240px] ">
+
+                    {/* Minor Sponsors */}
+                    <div className="flex flex-col gap-3 bg-[#3F0000]/[.38] p-5 rounded-2xl items-center w-[140px] xs:w-[120px] sm:w-[140px] md:w-[160px] lg:w-[240px]">
                         <p>Minor Sponsors</p>
                         <HomeSponsor
                             imageUrl={SPONSOR.INKPLACE}
@@ -65,7 +66,10 @@ const SponsorSection = () => {
                             width="w-20 xs:w-16 sm:w-20 md:w-24 lg:w-36"
                         />
                     </div>
+
+                    {/* Partners */}
                     <div className="flex flex-col gap-3 xs:gap-5">
+                        {/* Venue Partner */}
                         <div className="flex flex-col text-left bg-[#3F0000]/[.38] p-5 rounded-2xl w-[288px] xs:w-[248px] sm:w-[292px] md:w-[332px] lg:w-auto">
                             <p>Venue Partner</p>
                             <HomeSponsor
@@ -74,7 +78,9 @@ const SponsorSection = () => {
                                 width="w-48 xs:w-full lg:w-96"
                             />
                         </div>
-                        <div className="flex gap-2 xs:gap-2 sm:gap-3  lg:gap-10 ">
+
+                        {/* Presenters / Co-presenters / Media */}
+                        <div className="flex gap-2 xs:gap-2 sm:gap-3 lg:gap-10">
                             <div className="flex flex-col gap-3 bg-[#3F0000]/[.38] p-5 rounded-2xl items-center w-[140px] xs:w-[120px] sm:w-[140px] md:w-[160px] lg:w-auto">
                                 <span className="text-left">Presenters</span>
                                 <HomeSponsor
@@ -93,7 +99,8 @@ const SponsorSection = () => {
                                     width="w-24 xs:w-20 sm:w-24 md:w-28 lg:w-44"
                                 />
                             </div>
-                            <div className="flex flex-col gap-3 ">
+
+                            <div className="flex flex-col gap-3">
                                 <div className="flex flex-col gap-3 bg-[#3F0000]/[.38] p-5 rounded-2xl items-center w-[140px] xs:w-[120px] sm:w-[140px] md:w-[160px] lg:w-auto">
                                     <p>Co-Presenters</p>
                                     <HomeSponsor
@@ -107,6 +114,7 @@ const SponsorSection = () => {
                                         width="w-20 xs:w-16 md:w-20 lg:w-32"
                                     />
                                 </div>
+
                                 <div className="flex flex-col gap-3 bg-[#3F0000]/[.38] p-5 rounded-2xl items-center w-[140px] xs:w-[120px] sm:w-[140px] md:w-[160px] lg:w-auto">
                                     <p>Media Partners</p>
                                     <HomeSponsor

@@ -100,11 +100,11 @@ export const ContactUsForms = () => {
 
                 <button
                     type="submit"
-                    className="w-full border-4 rounded-md px-4 py-2 mb-3 text-white flex items-center text-xl font-bold hover:bg-white hover:text-site-main hover:border-site-main"
+                    className="w-full border-4 rounded-md px-4 py-2 mb-3 text-white flex items-center text-xl font-bold hover:bg-white hover:text-site-main hover:border-site-main hover:scale-105 duration-200"
                     onClick={handleSubmit}
                 >
                     <RiMailSendLine size={25} />
-                    <div className="flex-grow text-center pr-3 ">
+                    <div className="flex-grow text-center pr-3">
                         <p>Submit</p>
                     </div>
                 </button>

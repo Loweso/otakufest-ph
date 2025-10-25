@@ -31,7 +31,7 @@ const TheFooter = () => {
                         rel="noreferrer"
                         href={ExternalLink.FB}
                         target="_blank"
-                        className="group"
+                        className="group hover:scale-110 duration-200"
                     >
                         <RiFacebookCircleFill
                             color="black"
@@ -46,7 +46,7 @@ const TheFooter = () => {
                         rel="noreferrer"
                         href={ExternalLink.TWITTER}
                         target="_blank"
-                        className="group"
+                        className="group hover:scale-110 duration-200"
                     >
                         <RiTwitterFill
                             color="black"
@@ -61,7 +61,7 @@ const TheFooter = () => {
                         rel="noreferrer"
                         href={ExternalLink.INSTAGRAM}
                         target="_blank"
-                        className="group"
+                        className="group hover:scale-110 duration-200"
                     >
                         <RiInstagramFill
                             color="black"
