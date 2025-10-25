@@ -27,7 +27,7 @@ const EventSection = () => {
                     EVENTS AND COMPETITIONS
                 </p>
             </Fade>
-            <div className="grid grid-cols-2 gap-2 sm:gap-4 md:grid-cols-3 w-full">
+            <div className="grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 w-full items-stretch">
                 {Object.values(EVENTS).map((currentEvent, index) => (
                     <EventImage
                         slug={currentEvent.slug}
@@ -49,7 +49,7 @@ const EventSection = () => {
                 </p>
             </Fade>
 
-            <div className="grid grid-cols-2 gap-2 sm:gap-4 md:grid-cols-3 w-full">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-2 md:grid-cols-4 w-full items-stretch">
                 {Object.values(PARTNERED_EVENTS).map((currentEvent, index) => (
                     <EventImage
                         slug={currentEvent.slug}
