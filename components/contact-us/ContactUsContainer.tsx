@@ -8,7 +8,7 @@ export const ContactUsContainer = () => {
         <div className="w-[18rem] xs:w-full sm:w-4/5  lg:w-3/5 xl:w-2/5 flex flex-col  bg-site-main rounded-3xl items-center p-3 relative">
             <div className="flex flex-col items-center mt-6 mb-5 font-yaldevi w-full">
                 <h2 className="font-bold text-3xl">Contact us!</h2>
-                <h3 className="text-2xl">Send us your concerns!</h3>
+                <h3 className="text-xl">Send us your concerns!</h3>
             </div>
             <ContactUsForms />
 
