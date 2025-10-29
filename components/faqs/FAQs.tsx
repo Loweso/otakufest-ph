@@ -922,7 +922,7 @@ export const Faq = () => {
                     className={`md:w-[45rem] w-[90%] z-10 md:px-4 p-2 `}
                 >
                     <button
-                        className={`flex flex-row justify-between items-center cursor-pointer w-full p-2 ${
+                        className={`flex flex-row justify-between items-center cursor-pointer w-full p-2 hover:scale-105 duration-200 ${
                             expandedSections[sectionIndex]
                                 ? 'border-b-2 border-site-main'
                                 : 'border-b-2'
@@ -953,7 +953,11 @@ export const Faq = () => {
                                 key={itemIndex + item.question}
                             >
                                 <button
-                                    className={`flex flex-row justify-between items-center cursor-pointer w-full  p-4 ${expandedItems[sectionIndex][itemIndex] ? 'border-[1px] border-b-2 border-site-main' : 'border-b-2'}`}
+                                    className={`flex flex-row justify-between items-center cursor-pointer w-full p-4 hover:scale-105 duration-200 ${
+                                        expandedItems[sectionIndex][itemIndex]
+                                            ? 'border-[1px] border-b-2 border-site-main'
+                                            : 'border-b-2'
+                                    }`}
                                     onClick={() =>
                                         toggleItem(sectionIndex, itemIndex)
                                     }
