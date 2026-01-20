@@ -10,14 +10,15 @@ const EventSection = () => {
                     EVENTS
                 </p>
                 <p className="text-xs sm:text-sm md:text-xl mb-5">
-                    Join us and let your boundless creativity soar in our various
-                    assortment of events. Expect nothing less than a brilliant
-                    showcase of skill and talent that is sure to cater to and
-                    satisfy your cravings for an unforgettable otaku experience.
+                    Join us and let your boundless creativity soar in our
+                    various assortment of events. Expect nothing less than a
+                    brilliant showcase of skill and talent that is sure to cater
+                    to and satisfy your cravings for an unforgettable otaku
+                    experience.
                     <br />
                     <br />
-                    Click the images to see the details of each event and sign up
-                    now! Applications close in <b>3</b> days!
+                    Click the images to see the details of each event and sign
+                    up now! Applications close in <b>3</b> days!
                 </p>
             </div>
 
@@ -34,6 +35,7 @@ const EventSection = () => {
                         blackImageURL={currentEvent.blackImageUrl}
                         name={currentEvent.eventName}
                         eventURL={currentEvent.eventURL}
+                        description={currentEvent.description}
                         isRevealed={currentEvent.isRevealed}
                     />
                 ))}
@@ -55,6 +57,7 @@ const EventSection = () => {
                         blackImageURL={currentEvent.blackImageUrl}
                         name={currentEvent.eventName}
                         eventURL={currentEvent.eventURL}
+                        description={currentEvent.description}
                         isRevealed={currentEvent.isRevealed}
                     />
                 ))}

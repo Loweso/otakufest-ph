@@ -11,13 +11,13 @@ export const Faq = () => {
             title: 'GENERAL INFORMATION',
             items: [
                 {
-                    question: 'When and where is Otakufest 2024?',
+                    question: 'When and where is Otakufest 2026?',
                     answer: (
                         <p>
-                            Otakufest 2024 will be held on{' '}
+                            Otakufest 2026 will be held on{' '}
                             <span className="font-bold">
-                                AUGUST 17-18, 2024 at Sky Hall and Sky Park, SM
-                                Seaside City Cebu, Philippines
+                                MARCH 14-15, 2026 at Upper Ground Floor, Tower
+                                Garden, SM Seaside City Cebu, Philippines
                             </span>
                             {'. '}Event doors open at 10AM on both days!
                         </p>
@@ -25,7 +25,7 @@ export const Faq = () => {
                 },
 
                 {
-                    question: 'Is there a theme for #OF24?',
+                    question: 'Is there a theme for #OF26?',
                     answer: <p>Homecooked food! 🍳</p>,
                 },
                 {
@@ -163,7 +163,7 @@ export const Faq = () => {
             items: [
                 {
                     question: 'When will pre-orders for ticket sales begin?',
-                    answer: <p>June 15 until July 31! 💥</p>,
+                    answer: <p>December 22 until March 1! 💥</p>,
                 },
                 {
                     question: 'Can I pay for the tickets in cash?',

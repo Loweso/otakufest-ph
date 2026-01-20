@@ -74,7 +74,7 @@ const EventDetailsPage = () => {
                     </div>
                 </div>
 
-                <EventDetails />
+                <EventDetails description={event.description} />
 
                 <div className="flex justify-center my-8">
                     <button
