@@ -13,7 +13,7 @@ const TheHeader = () => {
 
     return (
         <>
-            <header className=" bg-site-main/75 fixed z-20 flex items-center py-4 w-screen px-10 justify-between">
+            <header className="bg-site-main/75 fixed z-20 flex items-center py-4 w-screen px-10 justify-between">
                 <Link
                     href={Routes.HOME}
                     className="flex items-center text-2xl font-bold md:text-4xl gap-2"
@@ -32,13 +32,15 @@ const TheHeader = () => {
                         OTAKUFEST
                     </p>
                 </Link>
+
                 <nav className="hidden md:flex items-center gap-5 text-lg">
                     <TheNavBar
                         setIsNavbarDropdownOpen={setIsNavbarDropdownOpen}
                     />
                 </nav>
+
                 <button
-                    className="flex md:hidden"
+                    className="flex md:hidden hover:scale-110 duration-200"
                     onClick={() =>
                         setIsNavbarDropdownOpen(!isNavbarDropdownOpen)
                     }
@@ -46,11 +48,12 @@ const TheHeader = () => {
                     <FaBars className="text-2xl" />
                 </button>
             </header>
+
             <aside
                 className={`flex flex-col gap-5 items-end bg-site-main/90 h-[100dvh] w-[100dvw] z-30 ${isNavbarDropdownOpen ? 'fixed' : 'hidden'} py-5 px-10`}
             >
                 <button
-                    className="flex"
+                    className="flex hover:scale-110 duration-200"
                     onClick={() =>
                         setIsNavbarDropdownOpen(!isNavbarDropdownOpen)
                     }
