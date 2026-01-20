@@ -74,7 +74,7 @@ const TheFooter = () => {
                     </a>
                 </div>
                 <p className="text-gray-500 text-center text-xs md:text-md">
-                    © 2023. All Rights Reserved.
+                    © 2026. All Rights Reserved.
                 </p>
             </div>
         </footer>
