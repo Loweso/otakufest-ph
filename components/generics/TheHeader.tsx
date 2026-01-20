@@ -16,16 +16,18 @@ const TheHeader = () => {
             <header className=" bg-site-main/75 fixed z-20 flex items-center py-4 w-screen px-10 justify-between">
                 <Link
                     href={Routes.HOME}
-                    className="flex items-center text-2xl font-bold md:text-4xl"
+                    className="flex items-center text-2xl font-bold md:text-4xl gap-2"
                 >
-                    <figure className="relative aspect-square w-8 md:w-14 hover:-translate-y-1 duration-200">
+                    <figure className="relative w-8 md:w-14 hover:-translate-y-1 duration-200">
                         <Image
                             src={OF24_LOGO_WHITE}
                             alt="guest"
-                            fill
-                            className="object-cover"
+                            width={56}
+                            height={56}
+                            className="object-contain"
                         />
                     </figure>
+
                     <p className="hover:-translate-y-1 duration-200">
                         OTAKUFEST
                     </p>

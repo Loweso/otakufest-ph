@@ -24,7 +24,7 @@ export const LOGO =
 export const OF24_LOGO =
     'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718514119/logo-2024_y5o356.png';
 export const OF24_LOGO_WHITE =
-    'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718514125/logo-2024-white_igbjom.png';
+    'https://res.cloudinary.com/dpjefqaok/image/upload/v1768887730/Asset_2_zpqsd6.svg';
 export const OF24_MAIN_VISUAL =
     'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718514563/of24visual_bdbs49.png';
 export const OF24_TICKETS =
@@ -34,104 +34,63 @@ export const OF24_VENUE =
 export const OF24_COMING_SOON =
     'https://res.cloudinary.com/dhyoibvtc/image/upload/v1719024894/comingSoon_olfubt.png';
 
+export const carouselImages = [
+    'https://res.cloudinary.com/dpjefqaok/image/upload/v1768888625/NJ_L5193_ewc65v.jpg',
+    'https://res.cloudinary.com/dpjefqaok/image/upload/v1768888708/NJ_L6117_zcc1qg.jpg',
+    'https://res.cloudinary.com/dpjefqaok/image/upload/v1768888646/NJ_L5204_ybccag.jpg',
+    'https://res.cloudinary.com/dpjefqaok/image/upload/v1768888656/NJ_L5486_q7b3lg.jpg',
+];
+
 export const EVENTS = {
-    SOLO_SKIT: {
-        slug: 'solo-skit',
+    COSPLAY_SKIT: {
+        slug: 'cosplay-skit',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515389/solo_coskit_m0l3yt.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891168/COSKIT_ICON_oui7mq.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515389/solo_coskit_m0l3yt.png',
-        eventName: 'Solo Skit Cosplay Competition',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLSfxnUShZ0f5hYKj_UySg5BiUzK3kIuzoqLL2qQRDE2YYw5Rzg',
-        isRevealed: true,
-    },
-    DUO_SKIT: {
-        slug: 'duo-skit',
-        imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/duo_coskit_qtbaxi.png',
-        blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/duo_coskit_qtbaxi.png',
-        eventName: 'Duo Skit Cosplay Competition',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLSezmXO3epsnxFuXApPv4j6X9651vXdj2TUhe85qSLh6YuS7ZQ',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891168/COSKIT_ICON_oui7mq.png',
+        eventName: 'Solo Cosplay Skit Competition',
+        eventURL: 'https://forms.gle/aHxAt4nUewTCAQcm7',
         isRevealed: true,
     },
     SOLO_DUO_ASIAN_GROOVE: {
-        slug: 'solo-duo-asian-groove',
+        slug: 'asian-pop-dance',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515392/ags_solo_duo_xbzyna.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891168/APD_ICON_f5mr6l.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515392/ags_solo_duo_xbzyna.png',
-        eventName: 'Solo/Duo Asian Groove Showdown',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLScRtqkniAmwwwyQmUTek0JAutUnjaHw4fjd76jlO6RE8MfMWg',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891168/APD_ICON_f5mr6l.png',
+        eventName: 'Asian Pop Dance Competition',
+        eventURL: 'https://forms.gle/QcZKuqqPa7RCdoWG9',
         isRevealed: true,
     },
-    GROUP_ASIAN_GROOVE: {
-        slug: 'group-asian-groove',
+    KARAOKE_ASIAN_SINGING: {
+        slug: 'karaoke-asian-singing',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515392/ags_group_qsovxw.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891185/KARA_OK_ICON_qdefsk.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515392/ags_group_qsovxw.png',
-        eventName: 'Group Asian Groove Showdown',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLSdVmtu72WBmpKTrxiTyEA_lDVjN2ECZcmt-T3slXLb2SCUnvg',
-        isRevealed: true,
-    },
-    KARAOKE_JAPANESE_SINGING: {
-        slug: 'karaoke-japanese-singing',
-        imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/japsing_nwqgsb.png',
-        blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/japsing_nwqgsb.png',
-        eventName: 'Kara-OK!! Japanese Singing Competition',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLSee3wJ4dZ9o9tTLfKI53Nbp_UZOJhFsk_YKxNzt1R1nuU0JBw',
-        isRevealed: true,
-    },
-    ORIGINAL_CHARACTER_DESIGN: {
-        slug: 'original-character-design',
-        imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/ocd_llmgxw.png',
-        blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/ocd_llmgxw.png',
-        eventName: 'Original Character Design Competition',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLSfg0XgQI7YBhlXUIbS8Dnr5mdvs2VwzEKL4vFDDwte2wp1-aw',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891185/KARA_OK_ICON_qdefsk.png',
+        eventName: 'Kara-OK!! Asian Singing Competition',
+        eventURL: 'https://forms.gle/iH7ea4cDpH85Pb1U9',
         isRevealed: true,
     },
     ONE_SHOT_COMIC: {
         slug: 'one-shot-comic',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/osc_xdnzab.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891171/OSC_ICON_h3ymwy.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/osc_xdnzab.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891171/OSC_ICON_h3ymwy.png',
         eventName: 'One-Shot Comic Competition',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLSehcJNy5v4OWG3qTQkD4_Pb3OD-YFIXWljNl4QiqykiOKTzWw',
+        eventURL: 'https://forms.gle/zTusF1S9emNW6JeD9',
         isRevealed: true,
     },
-    ANIMATION: {
-        slug: 'animation',
+    ORIGINAL_CHARACTER_DESIGN: {
+        slug: 'original-character-design',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/animotion_gif_rg0uj7.gif',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891263/OCD_ICON_uqaibl.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/animotion_gif_rg0uj7.gif',
-        eventName: 'AniMotion! Animation Competition',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLSdNaXgg4BfZUlGGhfgINULA-32nWwgbcfJ6aZ7LNsDCkNKLWg',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891263/OCD_ICON_uqaibl.png',
+        eventName: 'Original Character Design Competition',
+        eventURL: 'https://forms.gle/gUi1up2yCZDxMcZ7A',
         isRevealed: true,
-    },
-    COMING_SOON: {
-        slug: undefined,
-        imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/coming_soon_por0sv.png',
-        blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/coming_soon_por0sv.png',
-        eventName: '??? Competition',
-        eventURL: '',
-        isRevealed: false,
     },
 };
 
@@ -139,62 +98,110 @@ export const PARTNERED_EVENTS = {
     SABERSTURM: {
         slug: 'sabersturm',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/sabersturm_szozxk.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892159/SABERSTURM_ICON_htgt2k.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/sabersturm_szozxk.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892159/SABERSTURM_ICON_htgt2k.png',
         eventName: 'Sabersturm Competition',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLScHr-cSn6CxjbIOJuJHU8RyULnOeB597Zk7zRfU5za_WwFfCQ',
+        eventURL: 'https://forms.gle/TSnFEQ1hkzNbmFSP7',
         isRevealed: true,
     },
-    GUNPLA: {
-        slug: 'gunpla',
+    TEKKEN: {
+        slug: 'tekken',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/gunpla_inzsrh.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892156/TEKKEN_ICON_ymgluh.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/gunpla_blk_zqww85.png',
-        eventName: 'Gundam Plastic Competition',
-        eventURL:
-            'https://formfacade.com/public/112519215755839682426/all/form/1FAIpQLSfpOaoZtw7tpWTR0GIYmbnbdN9NBIUdy8bnPiz5D9i-kY_ZQg',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892156/TEKKEN_ICON_ymgluh.png',
+        eventName: 'Tekken Competition',
+        eventURL: 'https://forms.gle/shSQkXh7LKXwN96o7',
+        isRevealed: true,
+    },
+    MMLB: {
+        slug: 'mobile-legends',
+        imageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892160/MLBB_ICON_ash09h.png',
+        blackImageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892160/MLBB_ICON_ash09h.png',
+        eventName: 'Mobile Legends Bang Bang Competition',
+        eventURL: 'https://forms.gle/mkgDMHeD38kEim956',
+        isRevealed: true,
+    },
+    CRUSH_GEAR: {
+        slug: 'mobile-legends',
+        imageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/CRUSH_GEAR_ICON_hxvr5m.png',
+        blackImageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/CRUSH_GEAR_ICON_hxvr5m.png',
+        eventName: 'Crush Gear Competition',
+        eventURL: 'https://forms.gle/TUEAqGGcnkQJY2w17',
         isRevealed: true,
     },
     YUGIOH: {
         slug: 'yugioh',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515389/ygo_rtczy8.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892154/YGO_ICON_gixm4j.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515388/ygo_blk_xxxs80.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892154/YGO_ICON_gixm4j.png',
         eventName: 'Yu-Gi-Oh! Competition',
+        eventURL: 'https://forms.gle/wx7CEwJRAhawF5iV7',
+        isRevealed: true,
+    },
+    STREET_FIGHTER: {
+        slug: 'street-fighter',
+        imageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892156/SF6_ICON_t3qemu.png',
+        blackImageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892156/SF6_ICON_t3qemu.png',
+        eventName: 'Street Fighter 6 Competition',
+        eventURL: 'https://forms.gle/oxpsVhQnpRtC41ba8',
+        isRevealed: true,
+    },
+    TWO_XKO: {
+        slug: '2xko',
+        imageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/2XKO_ICON_bn8vj8.png',
+        blackImageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/2XKO_ICON_bn8vj8.png',
+        eventName: '2XKO Competition',
+        eventURL: 'https://forms.gle/hYQ6KNyzpPriZruE6',
+        isRevealed: true,
+    },
+    BEYBLADE: {
+        slug: 'beyblade',
+        imageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892153/BEYBLADE_ICON_rjhv7w.png',
+        blackImageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892153/BEYBLADE_ICON_rjhv7w.png',
+        eventName: 'Beyblade Competition',
         eventURL: '',
         isRevealed: false,
     },
-    VANGUARD: {
-        slug: 'vanguard',
+    OTS_GUNPLA: {
+        slug: 'ots-gunpla',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/cfv_vvdnnu.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892151/GUNPLA_OTS_ICON_fvto31.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/cfv_blk_wimd03.png',
-        eventName: 'Vanguard Competition',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892151/GUNPLA_OTS_ICON_fvto31.png',
+        eventName: 'On-The-Spot Gunpla Building Competition',
+        eventURL: '',
+        isRevealed: false,
+    },
+    CS_GUNPLA: {
+        slug: 'cs-gunpla',
+        imageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/GUNPLA_CB_ICON_aqcikv.png',
+        blackImageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/GUNPLA_CB_ICON_aqcikv.png',
+        eventName: 'Custom Build Gunpla Competition',
         eventURL: '',
         isRevealed: false,
     },
     DND: {
-        slug: 'dungeons-and-dragons',
+        slug: 'dnd',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515392/dnd_fvwhpn.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/DND_ICON_g6mpkz.png',
         blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515390/dnd_blk_b8zvvt.png',
-        eventName: 'Dungeon & Dragons Competition',
-        eventURL: '',
-        isRevealed: false,
-    },
-    COMING_SOON: {
-        slug: undefined,
-        imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/coming_soon_por0sv.png',
-        blackImageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718515391/coming_soon_por0sv.png',
-        eventName: '??? Competition',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/DND_ICON_g6mpkz.png',
+        eventName: 'Dungeons & Dragons Competition',
         eventURL: '',
         isRevealed: false,
     },

@@ -1,7 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 import ExternalLink from '@/enums/externalUrls';
-import { OF24_LOGO, OF24_MAIN_VISUAL } from '@/enums/imageUrls';
+import {
+    carouselImages,
+    OF24_BACKGROUND,
+    OF24_LOGO,
+    OF24_MAIN_VISUAL,
+} from '@/enums/imageUrls';
 import { Fade } from 'react-awesome-reveal';
 import {
     RiFacebookCircleFill,
@@ -19,7 +24,7 @@ const EventDescription = () => {
         <>
             <div className="flex flex-col items-center text-center w-full h-[90vh] md:h-[150vh] overflow-hidden relative">
                 <Image
-                    src="/eventDescription/eventBackground.png"
+                    src={OF24_BACKGROUND}
                     alt="background"
                     fill
                     className="object-cover z-0"
@@ -105,12 +110,7 @@ const EventDescription = () => {
                             duration: 30,
                         }}
                     >
-                        {[
-                            '/eventDescription/eventBackground.png',
-                            '/eventDescription/eventBackground.png',
-                            '/eventDescription/eventBackground.png',
-                            '/eventDescription/eventBackground.png',
-                        ].map((src, index) => (
+                        {carouselImages.map((src, index) => (
                             <div
                                 key={index}
                                 className="relative w-1/4 h-full flex-shrink-0"
@@ -139,7 +139,7 @@ const EventDescription = () => {
             {/* Carousel — right to left */}
             <div className="md:hidden relative w-full h-24 overflow-hidden z-[5]">
                 <motion.div
-                    className="flex w-[400%] h-full"
+                    className="flex w-[200%] h-full"
                     animate={{ x: ['0%', '-50%'] }}
                     transition={{
                         repeat: Infinity,
@@ -147,12 +147,7 @@ const EventDescription = () => {
                         duration: 30,
                     }}
                 >
-                    {[
-                        '/eventDescription/eventBackground.png',
-                        '/eventDescription/eventBackground.png',
-                        '/eventDescription/eventBackground.png',
-                        '/eventDescription/eventBackground.png',
-                    ].map((src, index) => (
+                    {carouselImages.map((src, index) => (
                         <div
                             key={index}
                             className="relative w-1/4 h-full flex-shrink-0"
