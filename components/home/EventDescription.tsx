@@ -32,8 +32,8 @@ const EventDescription = () => {
                 />
 
                 <div className="flex flex-col justify-center items-center text-center w-full h-full md:h-[80vh] overflow-hidden">
-                    <div className="absolute bottom-0 flex flex-col h-1/2 w-full md:h-full md:w-1/2 md:right-0 z-[15] items-center text-center px-5 md:px-20">
-                        <div className="flex flex-col items-center text-center justify-center w-full h-[90vh] gap-4 md:gap-10">
+                    <div className="absolute bottom-0 flex flex-col h-2/5 w-full md:h-full md:w-1/2 md:right-0 z-[15] items-center text-center px-5 md:px-20">
+                        <div className="flex flex-col items-center text-center justify-center w-full h-[90vh]">
                             <Fade>
                                 <figure className="relative w-[82.5vw] md:w-[500px] h-auto">
                                     <Image
@@ -47,7 +47,7 @@ const EventDescription = () => {
 
                                 <figure className="relative w-[65vw] md:w-72 h-auto">
                                     <Image
-                                        src="/eventDescription/eventDate.svg"
+                                        src="/eventDescription/eventDate.png"
                                         alt="of24visual"
                                         width={500}
                                         height={200}
@@ -65,7 +65,7 @@ const EventDescription = () => {
                                 <span className="font-bold"> XXX </span> !
                             </span> */}
 
-                                <div className="flex flex-row text-site-main gap-4">
+                                <div className="flex flex-row text-site-main mt-4 md:mt-12 gap-4">
                                     <a
                                         rel="noreferrer"
                                         href={ExternalLink.FB}
