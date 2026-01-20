@@ -351,54 +351,51 @@ export const GUESTS = [
     {
         name: 'HippoChii',
         description:
-            'Miu is a cosplayer famously known for her “moe” cosplays. Outside of the intricate costumes is a passionate person who turns to many interesting hobbies: she streams and plays games, illustrates, crafts, and has a knack for make-up! From a humble beginning of loving anime and manga since elementary days, Miu worked hard to become the cosplayer she is today. She’s now seen as a darling of Vietnam’s cosplay scene. A cute beauty and a cuter personality!',
+            "Here comes the shapeshifter with cosplay, someone who fully embodies the character with confidence and passion in every thread and detail! She's based here in the Philippines, get to know Hippochii at Otakufest 2026!",
         imageUrl:
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768898941/hippochii_y620qw.jpg',
         socials: {
-            facebook: 'https://www.facebook.com/Miucosplayer93',
-            youtube: 'https://youtube.com/@chaumiu',
-            twitch: 'https://www.twitch.tv/miu_cosplayer',
-            twitter: 'https://twitter.com/Milky_choco93',
+            facebook: 'https://www.facebook.com/HippoChii',
+            instagram: 'https://www.instagram.com/hippo_chii131',
+            tiktok: 'https://www.tiktok.com/@hippochii',
         },
     },
     {
         name: 'Lily Universe',
         description:
-            'Will, known popularly as Wiru, is a highly respected cosplayer known for versatility in presenting stunning cosplays–as both masculine and feminine characters! With an immense love for cosplay, Wiru gives back to the community by sharing moments created with other cosplayers and giving cosplay tutorials and advice through Youtube videos. Handsome, beautiful, and a generous personality to boot!',
+            "A master with make-up and a wig-styling wizard, meet Lily Universe! Whether it's Kafka from Honkai Star Rail or Sylus from Love and Deepspace, the internationally known cosplayer breaks the barrier of the screen and brings these characters to life. Experience it yourself!",
         imageUrl:
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768898946/lily_universe_ixc9fp.jpg',
         socials: {
-            instagram: 'https://www.instagram.com/willson618',
-            twitter: 'https://twitter.com/wiru_son',
-            youtube: 'https://www.youtube.com/@WirusonCH',
+            facebook: 'https://www.facebook.com/yunomi.moka',
+            instagram: 'https://www.instagram.com/lilycos_universe/',
+            tiktok: 'https://www.tiktok.com/lily.universe',
         },
     },
     {
         name: 'Peachmilky',
         description:
-            'Kitsui Akira, also affectionately known as Kiichan, is a 9-tailed Cosmic Kitsune who crash landed on earth and now spends her days receiving headpats and eating sushi. She’s an out-of-this-world Vtuber who’s particularly known for her singing prowess. She can even sing in 10 different languages! Many of her skills are self taught talents that include illustration, singing, voice acting, and video editing. In her downtime, you can find her gaming or streaming on her channels. She’s as bright as the stars above!',
+            'In her first ever visit to the Philippines, Peachmilky is Tokyo-based international cosplayer, streamer, and model with a deep love for anime and gaming... even featuring in a few of them herself! Find her in Resident Evil 4 and Like A Dragon! ',
         imageUrl:
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768898939/peachmilky_cdfsyc.jpg',
         socials: {
-            youtube: 'https://www.youtube.com/@KitsuiAkira',
-            twitch: 'https://twitch.tv/kiichan',
-            tiktok: 'https://tiktok.com/@xkiichan',
-            twitter: 'https://twitter.com/KitsuiAkira',
-            instagram: 'https://instagram.com/kitsuiakira',
+            youtube: 'https://www.youtube.com/@PeachMilkyYT',
+            instagram: 'https://www.instagram.com/peachmilky_',
+            twitch: 'https://www.twitch.tv/peachmilky',
+            twitter: 'https://x.com/PeachMilky_',
+            linktree: 'https://linktr.ee/peachmilky',
         },
     },
     {
         name: 'Poetxia',
         description:
-            'Kitsui Akira, also affectionately known as Kiichan, is a 9-tailed Cosmic Kitsune who crash landed on earth and now spends her days receiving headpats and eating sushi. She’s an out-of-this-world Vtuber who’s particularly known for her singing prowess. She can even sing in 10 different languages! Many of her skills are self taught talents that include illustration, singing, voice acting, and video editing. In her downtime, you can find her gaming or streaming on her channels. She’s as bright as the stars above!',
+            'Poetxia is a Germany-based cosplayer and tattoo artist with around 8 languages under his belt! A familiar face for Love and Deepspace fans, this creator brings fantastical ideas to life through their dreamlike cosplays and stunning tattoo art! ',
         imageUrl:
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768898943/poetxia_xx24s6.jpg',
         socials: {
-            youtube: 'https://www.youtube.com/@KitsuiAkira',
-            twitch: 'https://twitch.tv/kiichan',
-            tiktok: 'https://tiktok.com/@xkiichan',
-            twitter: 'https://twitter.com/KitsuiAkira',
-            instagram: 'https://instagram.com/kitsuiakira',
+            instagram: ' https://www.instagram.com/poet.xia/',
+            tiktok: 'https://www.tiktok.com/@poet.xia',
+            threads: ' https://www.threads.com/@poet.xia',
         },
     },
 ];

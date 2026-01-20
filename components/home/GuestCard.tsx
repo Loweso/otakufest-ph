@@ -9,6 +9,7 @@ import {
     RiTwitchFill,
 } from 'react-icons/ri';
 import ExternalUrls from '@/enums/externalUrls';
+import { SiThreads, SiLinktree } from 'react-icons/si';
 
 interface PropsInteface {
     name: string;
@@ -28,6 +29,8 @@ const GuestCard = (props: PropsInteface) => {
         instagram: <RiInstagramFill className="text-xl" />,
         tiktok: <RiTiktokFill className="text-xl" />,
         twitch: <RiTwitchFill className="text-xl" />,
+        threads: <SiThreads className="text-xl" />,
+        linktree: <SiLinktree className="text-xl" />,
     };
 
     return (
