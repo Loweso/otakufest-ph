@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { EventDescription } from '../events/EventDetails';
 
 interface IProps {
     slug?: string;
@@ -8,6 +9,7 @@ interface IProps {
     blackImageURL: string;
     name: string;
     eventURL: string;
+    description?: EventDescription;
     isRevealed: boolean;
 }
 

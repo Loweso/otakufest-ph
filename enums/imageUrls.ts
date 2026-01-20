@@ -50,6 +50,31 @@ export const EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891168/COSKIT_ICON_oui7mq.png',
         eventName: 'Solo Cosplay Skit Competition',
         eventURL: 'https://forms.gle/aHxAt4nUewTCAQcm7',
+        description: {
+            intro: 'PUT ON YOUR COWBOY BOOTS! 🤠',
+            body: `It's time to get back in the saddle and don your rancher's hat, because
+    Otakufest's Solo Cos-skit Competition is back on the menu! 🏇
+    Show off your skills and make the crowd swoon 'till the cows come home! 🐮`,
+            end: `All geared up? Sign-ups are open until February 7, 2026,
+    so come on over!`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                links: [
+                    {
+                        label: '[ENGLISH]',
+                        url: 'https://docs.google.com/document/d/1mrL-KKiPIpm58bn6Os1Zd3DGFYIk6cjFNtqFDVbQqtA/preview?tab=t.0&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7RovZ1S12bTkSdTRHfFBAhAcVqhqByQwVgCxAsSCqeilXw_aJ13U2IwVGWAQ_aem__eJrIRB0bOLsiAgLnQ17wA&h=AT3bs7Qt8PH359ALV_3zzy-T7rkgV4wqneEWXBawt9rUBeVAzsRUd8dB5Ydbd7fcvSzQ5pix0LozkRIFXVmYo2Uq6MmBeFfcusuaWB6s3m_Y-rGp8EfaTn9mtYz5gs9vMLVrUBaLHZg6k0sy&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[CEBUANO]',
+                        url: 'https://docs.google.com/document/d/1mrL-KKiPIpm58bn6Os1Zd3DGFYIk6cjFNtqFDVbQqtA/preview?tab=t.g2zhead9na5e&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5BbZTBe0gWp0YuMn4C-0cFcvoYAwp0SVLQnQ4IExeAWySKIQHQ53zvWujOpQ_aem_QeJYr8SVv1QvoSKonRKaIg&h=AT3K6uVNoUpCb-hd3YldI7D_MMkKdlTl31LtR3-tHHyjDH2mlFHwJkVs65G_hd3uZlbXEkXkwGM6v3wg76fN43B_FIyXRp1ZE60QQbbl1S-8ofVy1GwAKKIIWt_Vnr_v25dp1AsfJdgnOFMd&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[TAGALOG]',
+                        url: 'https://docs.google.com/document/d/1mrL-KKiPIpm58bn6Os1Zd3DGFYIk6cjFNtqFDVbQqtA/preview?tab=t.8bx62dvyxskd&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4AhQSUVFr4a6WKAlXbeTKSRMeZXOZf1H5Ff_wT9ajK85FD3v9rc4WkK0og7g_aem_fc0kFjqo1liao0kaag__-Q&h=AT3O1nOxJavMrxN0SjOHK2xOvfiJ5cS6KUBaILXdRWRYB-Eh1u58cpMsuRorHXR_lH2t2PVxJYWUtEK3h8AQ96A7kUVEYQ2ejCpzlY0NepGGZ29rs9toIv5bvjRdjKJbpSI6yexBCeFtSuMg&__tn__=-UK*F',
+                    },
+                ],
+            },
+        },
         isRevealed: true,
     },
     SOLO_DUO_ASIAN_GROOVE: {
@@ -60,6 +85,30 @@ export const EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891168/APD_ICON_f5mr6l.png',
         eventName: 'Asian Pop Dance Competition',
         eventURL: 'https://forms.gle/QcZKuqqPa7RCdoWG9',
+        description: {
+            intro: '🎧 GONNA BE GOLDEN! ✨',
+            body: `Calling all hunters: now's your 🫵 chance to turn the Honmoon gold!
+            Otakufest's Asian Pop Dance Competition opens its doors once again. 
+            Dance your way to the top and show the crowd how it's done!💃`,
+            end: `Ready for a takedown? Sign-ups are open until February 7, 2026.`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                links: [
+                    {
+                        label: '[ENGLISH]',
+                        url: 'https://docs.google.com/document/d/1vAud4a8_5GBAjbDhpfPfhToJ_RtMVVYTCFD4eYK8yEI/preview?tab=t.0&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5tBnrtNIvT44XpplGNFfHbzwImgJrRKAglOqOm1N12wXX6Zb1GkwRSYx4uGA_aem_Xg1pZVbJi_GBpfY8juVUgg&h=AT1OGESenzm19ojyW83wxmuAKxuwis9mGY5UzM7hTdpi42Gp5TTlCegQBGbLabLN0toC1FoscaDw8mxv8wN18lMz6NaTy5N5ih23PEuhi-mT92qqoDTVFP1aUudtCYGGt0xgvodkudzNJNv2&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[CEBUANO]',
+                        url: 'https://docs.google.com/document/d/1vAud4a8_5GBAjbDhpfPfhToJ_RtMVVYTCFD4eYK8yEI/preview?tab=t.w6eldynpiokj&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5wOZ5URrd3RQf0nrHq9o1s7cxaafJk37HTzmrGtbk-QWciPg4kqqZvT_VLrQ_aem_2pF7mP6SF_BFs9UCzEUgkg&h=AT1ORr15B55IArSLv0KodUDAVYkE8ATroQgnbTmRcfWsX3_bQWr1xPH59RniUe0LIy2xWjlrnebvbeFkoXWbgaiz7nExe05o0ZmMjIlat3oACwPpXh20rlSMMgYIyAoHCwFPe4L3QucyAL8m&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[TAGALOG]',
+                        url: 'https://docs.google.com/document/d/1vAud4a8_5GBAjbDhpfPfhToJ_RtMVVYTCFD4eYK8yEI/preview?tab=t.14vzhoptb4um&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6BtaCwa3jlq9p-9g-6oOuNKvO48ePk4nxIfrWKpXTQni0JTB5a44bcXlIbhw_aem_2fzVXRWfyyT0x_w65eyVmA&h=AT2vB7XEZc1wjI8Nmgy9Lq5Cv2NtPWiJ45hHgIpIdZ35d3CfCgTQyQgNdWL279I2AaEVbWJk5jv6t_2KL4oPPyvDouugXzllRDZOV4el6-vIhbzHSc1dMRN9TZtfiAkMEyPXm73VqV2Jp2Fg&__tn__=-UK*F',
+                    },
+                ],
+            },
+        },
         isRevealed: true,
     },
     KARAOKE_ASIAN_SINGING: {
@@ -70,6 +119,30 @@ export const EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891185/KARA_OK_ICON_qdefsk.png',
         eventName: 'Kara-OK!! Asian Singing Competition',
         eventURL: 'https://forms.gle/iH7ea4cDpH85Pb1U9',
+        description: {
+            intro: '🌾BUCKLE UP AND GRAB YOUR MICS!🎤',
+            body: `Want a chance to wow us with your vocals? Look no further! 
+            Otakufest is back with the Kara-OK contest! 
+            So warm up those vocal cords and sing your heart right out! 🤠`,
+            end: `If you think got what it takes, then sign-ups are open 'till February 7, 2026!`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                links: [
+                    {
+                        label: '[ENGLISH]',
+                        url: 'https://docs.google.com/document/d/1lA27S5G1GPpe6J0iWF0XbwNoJOftRhGXq0_JuMQiRBM/preview?tab=t.0&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5BbZTBe0gWp0YuMn4C-0cFcvoYAwp0SVLQnQ4IExeAWySKIQHQ53zvWujOpQ_aem_QeJYr8SVv1QvoSKonRKaIg&h=AT1NcvG0Z23JCi6ghNaS4N6IBXawRJbHi38iXpfITiCwuc6wpCTptuGQFXijSRVfZSZNHv6B9I1rPWgzSkMB_OcT6RSY7Upe8_TNUSVe6PBKZM2t1cZlLUpkoRjf2jdKQgf95WKfISLAb_OP&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[CEBUANO]',
+                        url: 'https://docs.google.com/document/d/1lA27S5G1GPpe6J0iWF0XbwNoJOftRhGXq0_JuMQiRBM/preview?tab=t.7907lun1xmn3&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6RwnV8FMo4EDAexTBmy04Syr6WxEYBIlLCl4BatNeewbd4GZ6eniGAYlbLxQ_aem_r-iJFIZEOknLyWj-0VgIIg&h=AT1qkplXmIFEZIXjal3wTYstn6wQYPt96VZPCSAkL2c6ouq9Uu46n1ILh_pY3IG5hzZpd1YWQDKWT1csApnJnbkgSl-1XaHviGYYa4CxZyAXMKM4Y49xnp8wy6tBSaTxcRDXjzlmKWpwuUXY&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[TAGALOG]',
+                        url: 'https://docs.google.com/document/d/1lA27S5G1GPpe6J0iWF0XbwNoJOftRhGXq0_JuMQiRBM/preview?tab=t.dtgs4xbykeqt&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5tBnrtNIvT44XpplGNFfHbzwImgJrRKAglOqOm1N12wXX6Zb1GkwRSYx4uGA_aem_Xg1pZVbJi_GBpfY8juVUgg&h=AT3aJWsP5hDbjORCtN6S0XsY3DjsqNIftfvfUsV7OFtk_f29Wy-yeLlgKWDg66dhDQrY5EOzzYxGT7DAHMXZv1vxjskLeU_8R2z6nVrD02EurC50Zsq5v2wTAewgsum6NOx6LaZiFnrMP_3H&__tn__=-UK*F',
+                    },
+                ],
+            },
+        },
         isRevealed: true,
     },
     ONE_SHOT_COMIC: {
@@ -80,6 +153,29 @@ export const EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891171/OSC_ICON_h3ymwy.png',
         eventName: 'One-Shot Comic Competition',
         eventURL: 'https://forms.gle/zTusF1S9emNW6JeD9',
+        description: {
+            intro: "🐎 THIS TOWN AIN'T BIG ENOUGH FOR THE BOTH OF US! 🐎",
+            body: `Got a story to tell? Bring it to the page and show us with Otakufest's One Shot Comic Competition!🖌️ 
+            Take your skills and show the crowd why they call you the best draw(er) in the west. 🤠`,
+            end: `Deadline for submissions is on February 14, 2026, so get a move on partner! 🔥`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                links: [
+                    {
+                        label: '[ENGLISH]',
+                        url: 'https://docs.google.com/document/d/1qFSdGnqE4SiM5p5Lom_Z2akxoX_GUrLO0SYxGxd-tyQ/preview?tab=t.0&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR47krMl0gTtLGCubFIHy5syNLhQHGEbJw2uWr4w6pyLlfw4_I_M0-Ci7_nNAg_aem_5q55mdMOJpwYTe9zlPcRpQ&h=AT2gtu6GZiQQebwqtmuee9CdpDSH9OmjgmcRlRyqyxrej4xaTnkPvhKUz4WPXyrtUhjEurTiTlIzHKBi_WoL69bUHl3nL7I9hr-BzIWNvBSE82g4I4_XGYJqi4w8k5_eoXOYp-9IzvG6fWZO&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[CEBUANO]',
+                        url: 'https://docs.google.com/document/d/1qFSdGnqE4SiM5p5Lom_Z2akxoX_GUrLO0SYxGxd-tyQ/preview?tab=t.8x9bbp8vtxuw&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6BtaCwa3jlq9p-9g-6oOuNKvO48ePk4nxIfrWKpXTQni0JTB5a44bcXlIbhw_aem_2fzVXRWfyyT0x_w65eyVmA&h=AT1FFDt2vvAtTNtsuiyHJOthrqgQml4mF1p91uOXEEF-ptb2m9l-QOIzpUCFv8NFDj4I6pIJ2IObxeSsf_LPn6LWu4neVoItwYWYDhTPn2Ou1cohpG86RW5mHTwhk2n0Mzm9bwMDWTPRAcEc&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[TAGALOG]',
+                        url: 'https://docs.google.com/document/d/1qFSdGnqE4SiM5p5Lom_Z2akxoX_GUrLO0SYxGxd-tyQ/preview?tab=t.bbg85r0r8s&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7RovZ1S12bTkSdTRHfFBAhAcVqhqByQwVgCxAsSCqeilXw_aJ13U2IwVGWAQ_aem__eJrIRB0bOLsiAgLnQ17wA&h=AT2yz5k6LFB28GtOdq2F0eqgCXrM3Wn7liEP0X0DuatrTwFdZ_k-ofasjnMzhbELj2c7ETV7xnm5cuSVvabGjWKae9Tbt5QSzhv_7TtyzIdmx4ti3wIHIQs21xSAlc6YtokwoTsR0DnmWvat&__tn__=-UK*F',
+                    },
+                ],
+            },
+        },
         isRevealed: true,
     },
     ORIGINAL_CHARACTER_DESIGN: {
@@ -90,6 +186,30 @@ export const EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768891263/OCD_ICON_uqaibl.png',
         eventName: 'Original Character Design Competition',
         eventURL: 'https://forms.gle/gUi1up2yCZDxMcZ7A',
+        description: {
+            intro: "🌻THERE'S A NEW QUEST ON THE BOARD!🧑‍🌾",
+            body: `Got a character you want to bring to life? Bring 'em to the village in Otakufest's Original Character Design Competition!🏘️✨ 
+            Come on down and show us just how creative you can be!🥳`,
+            end: `Think your OC can find a home in our little valley?🍎 
+            Submissions are open until February 14, 2026!`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                links: [
+                    {
+                        label: '[ENGLISH]',
+                        url: 'https://docs.google.com/document/d/1eRhgTgg-rAuCefEQZsosDbreR4QbtIosGLgBCDOHFss/preview?tab=t.0&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5BbZTBe0gWp0YuMn4C-0cFcvoYAwp0SVLQnQ4IExeAWySKIQHQ53zvWujOpQ_aem_QeJYr8SVv1QvoSKonRKaIg&h=AT1cot35FpUMCGDWHfbMjhlPng7auhSUKx-2W4KYW1-qKCkavPsEMvufCx-FwVFQoXyBRxP9zY8lyCdxL9ZzLm_Tq0fadq_0IXoxq4r0oj4fK_55B3yI5qRQ42Wpg1ksIPT8IDTfho8g1UVD&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[CEBUANO]',
+                        url: 'https://docs.google.com/document/d/1eRhgTgg-rAuCefEQZsosDbreR4QbtIosGLgBCDOHFss/preview?tab=t.heyprvxo6irs&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4AhQSUVFr4a6WKAlXbeTKSRMeZXOZf1H5Ff_wT9ajK85FD3v9rc4WkK0og7g_aem_fc0kFjqo1liao0kaag__-Q&h=AT1cqmdn3MVuUSsmXtxFt_P4bwG7YKN7mG-Oj7_ET-61YLzMihvUPMafPr08HwtWjtydeSu5346rVtfcl2xgR2mMVO773NqY9heei7TKPWq4taE0PNBEpw7prGhgNdZeKK_cRIbz121c6hLI&__tn__=-UK*F',
+                    },
+                    {
+                        label: '[TAGALOG]',
+                        url: 'https://docs.google.com/document/d/1eRhgTgg-rAuCefEQZsosDbreR4QbtIosGLgBCDOHFss/preview?tab=t.pv4cydmeqm31&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5tBnrtNIvT44XpplGNFfHbzwImgJrRKAglOqOm1N12wXX6Zb1GkwRSYx4uGA_aem_Xg1pZVbJi_GBpfY8juVUgg&h=AT3iCL92YNeAL-ZYY9oF-WRuBzzf5cLtdTVNrBE-L0mpw-4m8WLn3wsTe-ahcV_aI431XCC4sEyzVZ8ELzn_RO6dhdCRYhD_80X6h3OP4YYP9eHR-UtV1FLyCx06kch4Ot8yrpp4r1nLlefN&__tn__=-UK*F',
+                    },
+                ],
+            },
+        },
         isRevealed: true,
     },
 };
@@ -103,6 +223,18 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892159/SABERSTURM_ICON_htgt2k.png',
         eventName: 'Sabersturm Competition',
         eventURL: 'https://forms.gle/TSnFEQ1hkzNbmFSP7',
+        description: {
+            intro: "IT'S HIM OR ME, THE WORLD WILL NEVER BE THE SAME! 🔫",
+            body: `🔥 Pick up your pitchforks and raise your torches 'cause it's time for #Otakufest2026's Sabersturm Competition in partnership with SaberSturm! 🐎 
+            Who will prevail? An unstoppable HORSE or an iMOOvable object? 🐄`,
+            end: `You think you have what it takes? 
+            Registrations are open until the February 21, 2026! ⚔️`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: 'https://docs.google.com/document/d/1krnF8XTYfMGN43FsgXic16k_jx1t4CjfZHD1GmR4Dbo/preview?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR7RovZ1S12bTkSdTRHfFBAhAcVqhqByQwVgCxAsSCqeilXw_aJ13U2IwVGWAQ_aem__eJrIRB0bOLsiAgLnQ17wA&h=AT0uh_teMnbtB8mEkyy-WJF5nGVkydy-DM_1r_70FZdUMQd3JR612JY9g3T5-uEjK9kwAbMBTrUt2DT9xGsDE1Cz7fEM0IfJTc28IgpuSt4CLSH60mb6s6v19kmXTSXsawYjDbEmCTPnUIVy&__tn__=-UK*F',
+            },
+        },
         isRevealed: true,
     },
     TEKKEN: {
@@ -113,6 +245,17 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892156/TEKKEN_ICON_ymgluh.png',
         eventName: 'Tekken Competition',
         eventURL: 'https://forms.gle/shSQkXh7LKXwN96o7',
+        description: {
+            intro: '🔥 SHOW US WHATCHU GOT! 🥊',
+            body: `Ready to battle it out? Now’s your chance to step into the ring in Otakufest’s Tekken 8 Competition! 🎮 
+            The arena is waiting for you! ⚡ Ready to be champion? Sign-ups are open until February 21, 2026!`,
+            end: `Thanks to our partners Rocket Punch Cafe & Southside Tekken for making this possible!`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: 'https://docs.google.com/document/d/1CrlZShiJfOPXGGSrgzePNUIjGTghiARpAJ5oBrVd5Mo/preview?usp=sharing&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5BbZTBe0gWp0YuMn4C-0cFcvoYAwp0SVLQnQ4IExeAWySKIQHQ53zvWujOpQ_aem_QeJYr8SVv1QvoSKonRKaIg&h=AT2lwWZVP_ON5pwZVVElajWX3Kb_N-4IPQeyKgpaABg2PbpugLqr_56OwI5NL_q-MssgukZuuo9HOAezDZnam0xy2krmXG3vHtFowamN61C8NBiesTa_EZAGWpHcamqfHXjSODVitz_3UnM4&__tn__=-UK*F',
+            },
+        },
         isRevealed: true,
     },
     MMLB: {
@@ -123,6 +266,17 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892160/MLBB_ICON_ash09h.png',
         eventName: 'Mobile Legends Bang Bang Competition',
         eventURL: 'https://forms.gle/mkgDMHeD38kEim956',
+        description: {
+            intro: '✨READY… GO! 🐎',
+            body: `You brave enough to push those turrets? Pick your heroes & lanes cause Otakufest’s Mobile Legends: Bang Bang Competition is ready for ya! 
+            Farm those kills and prove you’re the ML goat! 🫵🐐 Up for the challenge? Sign-ups are open until January 10, 2026! 🔥`,
+            end: `Thank you to OCHA - Otakus and Cosplay Heads Association for making this competition possible!✨`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: 'https://docs.google.com/document/d/1PH1JaAG1Gup87T17gCUa1sZhxpjEhik-P6PZrXaac6A/preview?usp=sharing&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR47krMl0gTtLGCubFIHy5syNLhQHGEbJw2uWr4w6pyLlfw4_I_M0-Ci7_nNAg_aem_5q55mdMOJpwYTe9zlPcRpQ&h=AT1IXbuQb51Bujf1MU3MO4xj-X8LTRZ-h215T0Af2Y5ci7u0AX-oep17h_rxmhQpFLOlO1Xw3hHxztlausE0OA5KWQWD4ic4XGFbrBq4raShcR-2sbKJat_z9u10GzL4RPGs9792uC0mrP1Q&__tn__=-UK*F',
+            },
+        },
         isRevealed: true,
     },
     CRUSH_GEAR: {
@@ -133,6 +287,17 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/CRUSH_GEAR_ICON_hxvr5m.png',
         eventName: 'Crush Gear Competition',
         eventURL: 'https://forms.gle/TUEAqGGcnkQJY2w17',
+        description: {
+            intro: 'Are you GEARED up for a challenge? 🏎️',
+            body: `Crush your way to the top in our Crush Gear Competition! 💥 Build your strongest Gear and show the world its might‼️
+            Do you have what it takes to take the number one spot? 🥇 Sign ups are open until February 21, 2026!`,
+            end: `Thanks to our partner Crush Gear Cebu Alliance for making this possible! 🔥`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: 'https://docs.google.com/document/d/1kwy-veL-ICN43JbHlEQDc_MUzb6XKi1OudcUi0dpVQ0/preview?usp=sharing&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR5BbZTBe0gWp0YuMn4C-0cFcvoYAwp0SVLQnQ4IExeAWySKIQHQ53zvWujOpQ_aem_QeJYr8SVv1QvoSKonRKaIg&h=AT2WLyL_bywv6cxIXWFAitYto-Zzu1sI4-Lc1f9ehHuZlst72LP5tLnc6EOLghRYDSuqjL9LTrk-G9PIKp5Ly-R25Ep8HBZEQInBeQOl-LCWFl-5puwTUZw1y8Hg-lSJDhyNL4p7rwQIuUEx&__tn__=-UK*F',
+            },
+        },
         isRevealed: true,
     },
     YUGIOH: {
@@ -143,6 +308,18 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892154/YGO_ICON_gixm4j.png',
         eventName: 'Yu-Gi-Oh! Competition',
         eventURL: 'https://forms.gle/wx7CEwJRAhawF5iV7',
+        description: {
+            intro: 'PLATES SAY CHUN-LI, DROP THE BENZ OFF! 🤼‍♀️',
+            body: `Do you believe in the heart of the cards? Then get ready for Otakufest's Yu-Gi-Oh competition! 🔥 
+            Show off your skills and become the next champion! 🤩 Do you think you're ready? Then come on down and sign up! ✨ 
+            Deadline for registration is on February 21, 2026!`,
+            end: `Thanks to our partners Greyscale Company and Haiiro Neko Hobby Shop for making this competition possible!💥`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: 'https://docs.google.com/document/d/11y41pkOZIrMPjmnJUB4TnEn1p4pixkq76cvCfDymk2I/preview?tab=t.0&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExZ1JmanlheTRtMG50N0I5THNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR6RwnV8FMo4EDAexTBmy04Syr6WxEYBIlLCl4BatNeewbd4GZ6eniGAYlbLxQ_aem_r-iJFIZEOknLyWj-0VgIIg&h=AT2yCkTmCNhRvBpliSyC66wL6wGy8Qb24s0_eV8boPjG_8GchWy9OJRKLrymSAdvo7_lso-FAFyPYPsUdYdI2lL5wvk2wlTorRoCl0D9iUN44re-6KMhdHiEhNY6-2rk_tmS-t7Sm1wINNGG&__tn__=-UK*F',
+            },
+        },
         isRevealed: true,
     },
     STREET_FIGHTER: {
@@ -153,6 +330,17 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892156/SF6_ICON_t3qemu.png',
         eventName: 'Street Fighter 6 Competition',
         eventURL: 'https://forms.gle/oxpsVhQnpRtC41ba8',
+        description: {
+            intro: "IT'S TIME TO D-D-D-DUEL! 🃏 ⚡",
+            body: `Get ready to punch, kick, bite, fight with Otakufest's Street Fighter 6 Competition! 
+            Claw your way to the top and be hailed as a street fighting champion at #OF26 ! 💥💥💥`,
+            end: `📌 Registration is open until February 21, 2026!`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: 'https://docs.google.com/document/d/1mjdRv8F4-OgKnaakyGtQZqIkJ7Cfd6Ch3Cy-euwwjtg/preview?fbclid=IwY2xjawPcKKtleHRuA2FlbQIxMABicmlkETFnUmZqeWF5NG0wbnQ3QjlMc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrxHS2eGkH_BZi9GOaAyZcUNCJ3HsaXYqjDZhMLhVHy0AjOsPToU2aPO5QFg_aem_yjeBdgGGu0zMR4Tg5hsBSQ&tab=t.0',
+            },
+        },
         isRevealed: true,
     },
     TWO_XKO: {
@@ -163,6 +351,18 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/2XKO_ICON_bn8vj8.png',
         eventName: '2XKO Competition',
         eventURL: 'https://forms.gle/hYQ6KNyzpPriZruE6',
+        description: {
+            intro: "⚡YOU'RE IN A LEAGUE OF YOUR OWN! ⚔️",
+            body: `Do you have what it takes to be a legend? Then prove it with #Otakufest2026's 2XKO competition! 🔥 
+            Ready your combos, show your style, and take home the crown! 👑 Ready for a match? Make like Garen and get to the top ⚔️🛡️
+            ⚠️ Deadline for registration is on February 21, 2026!`,
+            end: `Thanks to our partner @rocketpunchgamingcafe for making this competition possible at #OF26!`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: 'https://docs.google.com/document/d/1mjdRv8F4-OgKnaakyGtQZqIkJ7Cfd6Ch3Cy-euwwjtg/preview?fbclid=IwY2xjawPcKJNleHRuA2FlbQIxMABicmlkETFnUmZqeWF5NG0wbnQ3QjlMc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrxHS2eGkH_BZi9GOaAyZcUNCJ3HsaXYqjDZhMLhVHy0AjOsPToU2aPO5QFg_aem_yjeBdgGGu0zMR4Tg5hsBSQ&tab=t.0',
+            },
+        },
         isRevealed: true,
     },
     BEYBLADE: {
@@ -173,6 +373,16 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892153/BEYBLADE_ICON_rjhv7w.png',
         eventName: 'Beyblade Competition',
         eventURL: '',
+        description: {
+            intro: '',
+            body: ``,
+            end: ``,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: '',
+            },
+        },
         isRevealed: false,
     },
     OTS_GUNPLA: {
@@ -182,7 +392,18 @@ export const PARTNERED_EVENTS = {
         blackImageUrl:
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892151/GUNPLA_OTS_ICON_fvto31.png',
         eventName: 'On-The-Spot Gunpla Building Competition',
-        eventURL: '',
+        eventURL: 'https://forms.gle/C2nw3zoVJALw2X9PA',
+        description: {
+            intro: 'What’s that? IT’S A GUNDAM! 🤖',
+            body: `Gear up for Otakufest’s GunPla On-The-Spot Building Competition 🌟 A clash of creativity and craftsmanship, where every cut and snap brings your Gundam to life right before the #OF26 crowd ⚔️ Think you can grasp victory?🌟 
+            Sign ups are open until February 21, 2026, so register today to test your on-the-spot building skills at #Otakufest2026 !`,
+            end: `Special thanks to Cebu Mecha Society for bringing this competition to life! 🤖💫`,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: 'https://docs.google.com/document/d/1sdZvgG1BNMbwXK9HlFJR9v0dl6OFEh0_aGZSSnmCCk4/preview?fbclid=IwY2xjawPcKHtleHRuA2FlbQIxMABicmlkETFnUmZqeWF5NG0wbnQ3QjlMc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjuSsyXSBO0sYK5sUgfLmzI0uFAcYRsnDa5avjDqnIuV_Dj8j8zT4KLv-c0C_aem_5q55mdMOJpwYTe9zlPcRpQ&tab=t.0',
+            },
+        },
         isRevealed: false,
     },
     CS_GUNPLA: {
@@ -193,6 +414,16 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/GUNPLA_CB_ICON_aqcikv.png',
         eventName: 'Custom Build Gunpla Competition',
         eventURL: '',
+        description: {
+            intro: '',
+            body: ``,
+            end: ``,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: '',
+            },
+        },
         isRevealed: false,
     },
     DND: {
@@ -203,6 +434,16 @@ export const PARTNERED_EVENTS = {
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/DND_ICON_g6mpkz.png',
         eventName: 'Dungeons & Dragons Competition',
         eventURL: '',
+        description: {
+            intro: '',
+            body: ``,
+            end: ``,
+            mechanics: {
+                title: '🌾 Check out our mechanics:',
+                label: '>> [How to Join] <<',
+                url: '',
+            },
+        },
         isRevealed: false,
     },
 };
