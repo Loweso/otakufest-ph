@@ -14,7 +14,7 @@ export const EventTimer = () => {
     let interval = useRef<number | null>(null);
 
     const startTimer = () => {
-        const countdownDate = new Date('August 17, 2024 00:00:00').getTime();
+        const countdownDate = new Date('March 14, 2026 00:00:00').getTime();
 
         interval.current = window.setInterval(() => {
             const now = new Date().getTime();
