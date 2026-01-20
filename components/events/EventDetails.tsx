@@ -1,69 +1,73 @@
-import React from 'react';
+export interface MechanicsLink {
+    label: string;
+    url: string;
+}
 
-const EventDetails = () => {
+export interface MainEventMechanics {
+    title: string;
+    links: MechanicsLink[];
+}
+
+export interface PartneredEventMechanics {
+    title: string;
+    label: string;
+    url: string;
+}
+
+export interface EventDescription {
+    intro: string;
+    body: string;
+    end: string;
+    mechanics: MainEventMechanics | PartneredEventMechanics;
+}
+
+interface Props {
+    description: EventDescription;
+}
+
+const EventDetails = ({ description }: Props) => {
+    const { intro, body, end, mechanics } = description;
+
     return (
-        <div className="space-y-6 text-gray-700 leading-relaxed">
-            <p className="text-base md:text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
-            </p>
+        <section className="space-y-8 text-gray-700">
+            <p className="font-bold text-xl">{intro}</p>
+            <p>{body}</p>
+            <p>{end}</p>
 
-            <div>
-                <ul className="space-y-3 text-base md:text-lg">
-                    <li className="flex items-start">
-                        <span className="text-red-700 mr-3 mt-1">•</span>
-                        <span>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua.
-                        </span>
-                    </li>
-                    <li className="flex items-start">
-                        <span className="text-red-700 mr-3 mt-1">•</span>
-                        <span>
-                            Ut enim ad minim veniam, quis nostrud exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                        </span>
-                    </li>
-                    <li className="flex items-start">
-                        <span className="text-red-700 mr-3 mt-1">•</span>
-                        <span>
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                        </span>
-                    </li>
-                    <li className="flex items-start">
-                        <span className="text-red-700 mr-3 mt-1">•</span>
-                        <span>
-                            Excepteur sint occaecat cupidatat non proident, sunt
-                            in culpa qui officia deserunt mollit anim id est
-                            laborum.
-                        </span>
-                    </li>
-                    <li className="flex items-start">
-                        <span className="text-red-700 mr-3 mt-1">•</span>
-                        <span>
-                            Sed ut perspiciatis unde omnis iste natus error sit
-                            voluptatem accusantium doloremque laudantium.
-                        </span>
-                    </li>
-                </ul>
-            </div>
-
-            <p className="text-base md:text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis
-                unde omnis iste natus error sit voluptatem accusantium
-                doloremque laudantium, totam rem aperiam.
-            </p>
-        </div>
+            {mechanics && 'links' in mechanics ? (
+                // Main Event mechanics (multiple links)
+                <div>
+                    <h3 className="font-semibold">{mechanics.title}</h3>
+                    <ul className="list-disc pl-6">
+                        {mechanics.links.map((link) => (
+                            <li key={link.label}>
+                                <a
+                                    href={link.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="text-blue-600 visited:text-purple-600 hover:underline"
+                                >
+                                    {link.label}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            ) : mechanics ? (
+                // Partnered Event mechanics (single link)
+                <div>
+                    <h3 className="font-semibold">{mechanics.title}</h3>
+                    <a
+                        href={mechanics.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-blue-600 visited:text-purple-600 hover:underline"
+                    >
+                        {mechanics.label}
+                    </a>
+                </div>
+            ) : null}
+        </section>
     );
 };
 
