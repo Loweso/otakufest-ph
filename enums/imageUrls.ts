@@ -349,11 +349,11 @@ export const MERCH = {
 
 export const GUESTS = [
     {
-        name: 'Miu',
+        name: 'HippoChii',
         description:
             'Miu is a cosplayer famously known for her “moe” cosplays. Outside of the intricate costumes is a passionate person who turns to many interesting hobbies: she streams and plays games, illustrates, crafts, and has a knack for make-up! From a humble beginning of loving anime and manga since elementary days, Miu worked hard to become the cosplayer she is today. She’s now seen as a darling of Vietnam’s cosplay scene. A cute beauty and a cuter personality!',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718839118/miu_dmjkfo.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768898941/hippochii_y620qw.jpg',
         socials: {
             facebook: 'https://www.facebook.com/Miucosplayer93',
             youtube: 'https://youtube.com/@chaumiu',
@@ -362,11 +362,11 @@ export const GUESTS = [
         },
     },
     {
-        name: 'Wiru',
+        name: 'Lily Universe',
         description:
             'Will, known popularly as Wiru, is a highly respected cosplayer known for versatility in presenting stunning cosplays–as both masculine and feminine characters! With an immense love for cosplay, Wiru gives back to the community by sharing moments created with other cosplayers and giving cosplay tutorials and advice through Youtube videos. Handsome, beautiful, and a generous personality to boot!',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718839118/wiru_eafxs2.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768898946/lily_universe_ixc9fp.jpg',
         socials: {
             instagram: 'https://www.instagram.com/willson618',
             twitter: 'https://twitter.com/wiru_son',
@@ -374,11 +374,25 @@ export const GUESTS = [
         },
     },
     {
-        name: 'Kiichan',
+        name: 'Peachmilky',
         description:
             'Kitsui Akira, also affectionately known as Kiichan, is a 9-tailed Cosmic Kitsune who crash landed on earth and now spends her days receiving headpats and eating sushi. She’s an out-of-this-world Vtuber who’s particularly known for her singing prowess. She can even sing in 10 different languages! Many of her skills are self taught talents that include illustration, singing, voice acting, and video editing. In her downtime, you can find her gaming or streaming on her channels. She’s as bright as the stars above!',
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718839118/kiichan_krutkl.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768898939/peachmilky_cdfsyc.jpg',
+        socials: {
+            youtube: 'https://www.youtube.com/@KitsuiAkira',
+            twitch: 'https://twitch.tv/kiichan',
+            tiktok: 'https://tiktok.com/@xkiichan',
+            twitter: 'https://twitter.com/KitsuiAkira',
+            instagram: 'https://instagram.com/kitsuiakira',
+        },
+    },
+    {
+        name: 'Poetxia',
+        description:
+            'Kitsui Akira, also affectionately known as Kiichan, is a 9-tailed Cosmic Kitsune who crash landed on earth and now spends her days receiving headpats and eating sushi. She’s an out-of-this-world Vtuber who’s particularly known for her singing prowess. She can even sing in 10 different languages! Many of her skills are self taught talents that include illustration, singing, voice acting, and video editing. In her downtime, you can find her gaming or streaming on her channels. She’s as bright as the stars above!',
+        imageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1768898943/poetxia_xx24s6.jpg',
         socials: {
             youtube: 'https://www.youtube.com/@KitsuiAkira',
             twitch: 'https://twitch.tv/kiichan',
@@ -420,3 +434,34 @@ export const ARTIST_FEATURES = [
         },
     },
 ];
+
+export const BOOTHS = {
+    ARTIST_ALLEY: [
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894878/image_5_uhqja3.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894876/image_4_qnesam.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894873/image_3_fltky5.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894871/image_2_wj4iq0.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894866/image_1_u9r09o.jpg',
+    ],
+    COSPLAY_CROSSWALK: [
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768895077/image_5_yfvw9j.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768895060/image_4_w8empk.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768895043/image_3_ytlzur.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768895035/image_2_ruxcma.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768895033/image_1_fb4mju.jpg',
+    ],
+    EXHIBITORS_EMPORIUM: [
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894863/image_5_wjtlwi.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894861/image_4_jyrylm.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894858/image_3_xtwtoi.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894856/image_2_kmpqfj.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894855/image_1_phx5ns.jpg',
+    ],
+    MERCHANT_MENAGERIE: [
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894931/image_5_eskvtm.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894928/image_4_y2ngkf.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894926/image_3_p2xelq.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894882/image_2_mukwcs.jpg',
+        'https://res.cloudinary.com/dpjefqaok/image/upload/v1768894880/image_1_vqvjyi.jpg',
+    ],
+};

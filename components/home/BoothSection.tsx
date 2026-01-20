@@ -2,6 +2,7 @@ import React from 'react';
 import { IoHeartCircle } from 'react-icons/io5';
 import ExternalLink from '../generics/ExternalLink';
 import { BoothCard } from '@/components/home/BoothCard';
+import { BOOTHS } from '@/enums/imageUrls';
 
 const BoothSection = () => {
     return (
@@ -50,13 +51,7 @@ const BoothSection = () => {
 
             <div className="space-y-0">
                 <BoothCard
-                    images={[
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                    ]}
+                    images={BOOTHS.ARTIST_ALLEY}
                     title="ARTIST ALLEY"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt."
                     buttonText="REGISTER NOW"
@@ -66,13 +61,7 @@ const BoothSection = () => {
                 />
 
                 <BoothCard
-                    images={[
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                    ]}
+                    images={BOOTHS.EXHIBITORS_EMPORIUM}
                     title="EXHIBITORS EMPORIUM"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt."
                     buttonText="REGISTER NOW"
@@ -84,13 +73,7 @@ const BoothSection = () => {
                 />
 
                 <BoothCard
-                    images={[
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                    ]}
+                    images={BOOTHS.MERCHANT_MENAGERIE}
                     title="MERCHANT MENAGERIE"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt."
                     buttonText="REGISTER NOW"
@@ -102,13 +85,7 @@ const BoothSection = () => {
                 />
 
                 <BoothCard
-                    images={[
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                        '/image.jpg',
-                    ]}
+                    images={BOOTHS.COSPLAY_CROSSWALK}
                     title="COSPLAY CROSSWALK"
                     description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt."
                     backgroundColor="#FFE5E5"
