@@ -31,7 +31,7 @@ const EventImage = (props: IProps) => {
     return (
         <div className="flex flex-col items-center gap-2 text-center text-md md:text-xl md:px-14 h-full">
             {isRevealed ? (
-                <Link href={eventURL}>{imageContent}</Link>
+                <Link href={linkHref}>{imageContent}</Link>
             ) : (
                 imageContent
             )}

@@ -25,8 +25,9 @@ const EventDetailsPage = () => {
                         Event Not Found
                     </h1>
                     <p className="text-lg md:text-xl lg:text-2xl px-4 md:px-6 mb-8 text-gray-600 leading-tight">
-                        The event you're looking for doesn't exist or has been
-                        removed.
+                        {
+                            "The event you're looking for doesn't exist or has been removed."
+                        }
                     </p>
                     <Link
                         href="/"
@@ -39,7 +40,10 @@ const EventDetailsPage = () => {
         );
     }
 
-    const galleryImages = [event.imageUrl, event.imageUrl, event.imageUrl];
+    const galleryImages =
+        event.description && 'images' in event.description
+            ? event.description.images
+            : [];
 
     return (
         <div className="min-h-screen bg-white">
