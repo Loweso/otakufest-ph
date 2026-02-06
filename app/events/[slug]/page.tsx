@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 'use client';
 
 import React from 'react';
@@ -25,9 +27,8 @@ const EventDetailsPage = () => {
                         Event Not Found
                     </h1>
                     <p className="text-lg md:text-xl lg:text-2xl px-4 md:px-6 mb-8 text-gray-600 leading-tight">
-                        {
-                            "The event you're looking for doesn't exist or has been removed."
-                        }
+                        The event you&apos;re looking for doesn&apos;t exist or
+                        has been removed.
                     </p>
                     <Link
                         href="/"
