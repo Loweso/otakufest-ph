@@ -7,20 +7,32 @@ interface BoothCardProps {
     images: string[];
     title: string;
     description: string;
+
     buttonText?: string;
-    backgroundColor?: string;
-    buttonClassName?: string;
     onButtonClick?: () => void;
+    buttonClassName?: string;
+
+    secondButtonText?: string;
+    onSecondButtonClick?: () => void;
+    secondButtonClassName?: string;
+
+    backgroundColor?: string;
 }
 
 export function BoothCard({
     images,
     title,
     description,
+
     buttonText,
-    backgroundColor = '#FFE5E5',
-    buttonClassName = 'bg-[#8B4049] hover:bg-[#6D3238]',
     onButtonClick,
+    buttonClassName = 'bg-[#8B4049] hover:bg-[#6D3238]',
+
+    secondButtonText,
+    onSecondButtonClick,
+    secondButtonClassName = 'bg-[#2C2C2C] hover:bg-[#1A1A1A]',
+
+    backgroundColor = '#FFE5E5',
 }: BoothCardProps) {
     return (
         <div
@@ -54,14 +66,25 @@ export function BoothCard({
                 {description}
             </p>
 
-            {buttonText && (
-                <div className="flex justify-center max-w-4xl mx-auto px-4">
-                    <button
-                        onClick={onButtonClick}
-                        className={`${buttonClassName} text-white px-6 py-2 sm:px-8 sm:py-2.5 md:px-10 md:py-3 text-sm sm:text-base font-semibold tracking-wide transition-transform duration-200 hover:scale-110 cursor-pointer border-none rounded-xl w-full sm:w-auto max-w-xs`}
-                    >
-                        {buttonText}
-                    </button>
+            {(buttonText || secondButtonText) && (
+                <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-4xl mx-auto px-4">
+                    {buttonText && (
+                        <button
+                            onClick={onButtonClick}
+                            className={`${buttonClassName} text-white px-6 py-2 sm:px-8 sm:py-2.5 md:px-10 md:py-3 text-sm sm:text-base font-semibold tracking-wide transition-transform duration-200 hover:scale-110 cursor-pointer border-none rounded-xl w-full sm:w-auto max-w-xs`}
+                        >
+                            {buttonText}
+                        </button>
+                    )}
+
+                    {secondButtonText && (
+                        <button
+                            onClick={onSecondButtonClick}
+                            className={`${secondButtonClassName} text-white px-6 py-2 sm:px-8 sm:py-2.5 md:px-10 md:py-3 text-sm sm:text-base font-semibold tracking-wide transition-transform duration-200 hover:scale-110 cursor-pointer border-none rounded-xl w-full sm:w-auto max-w-xs`}
+                        >
+                            {secondButtonText}
+                        </button>
+                    )}
                 </div>
             )}
         </div>

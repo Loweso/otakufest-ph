@@ -39,7 +39,7 @@ const SalesSection = () => {
                     <div className="flex flex-row justify-evenly rounded-full w-full md:w-1/2 p-2 border-site-secondary border-4">
                         <FaCalendarAlt className="size-20" />
                         <span>
-                            Open until <b>XXX</b>
+                            Open until <b>MARCH 1, 2026</b>
                         </span>
                     </div>
                 </div>
@@ -89,16 +89,16 @@ const SalesSection = () => {
                     <div className="flex flex-row justify-evenly rounded-2xl md:rounded-full w-full p-2 gap-4 border-site-secondary border-4">
                         <span className="flex flex-col items-center justify-center text-center">
                             <FaCalendarAlt className="size-20" />
-                            <b>XXX</b>
+                            <b>FEBRUARY 7, 2PM-6PM</b>
                         </span>
                         <div className="flex flex-col justify-center">
                             <span className="flex flex-row items-center gap-4">
                                 <FaLocationDot className="size-20" />
-                                XXXX
+                                Pica Bean, Ayala Central Bloc
                             </span>
                             <span className="flex flex-row items-center gap-4">
                                 <FaLocationDot className="size-20" />
-                                XXXX
+                                Bo&apos;s Coffee, SM Seaside City Cebu
                             </span>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ const SalesSection = () => {
                     <div className="flex flex-row justify-evenly rounded-full w-full md:w-1/2 p-2 border-site-secondary border-4">
                         <FaCalendarAlt className="size-20" />
                         <span>
-                            Open until <b>XXX</b>
+                            Open until <b>MARCH 1, 2026</b>
                         </span>
                     </div>
                 </div>

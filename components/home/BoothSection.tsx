@@ -1,10 +1,13 @@
 import React from 'react';
+import { useRouter } from 'next/navigation';
 import { IoHeartCircle } from 'react-icons/io5';
 import ExternalLink from '../generics/ExternalLink';
 import { BoothCard } from '@/components/home/BoothCard';
 import { BOOTHS } from '@/enums/imageUrls';
 
 const BoothSection = () => {
+    const router = useRouter();
+
     return (
         <div className="flex flex-col gap-7 md:gap-10 lg:gap-16 xl:gap-20 items-center justify-around text-justify bg-white w-screen pt-10 md:pt-20 px-3 sm:px-10 md:px-20">
             <div className="flex flex-col gap-7 xl:gap-10 text-site-main w-full items-center">
@@ -57,7 +60,12 @@ const BoothSection = () => {
                     buttonText="REGISTER NOW"
                     backgroundColor="#FFE5E5"
                     buttonClassName="bg-[#922424] hover:bg-[#7a1e1e]"
-                    onButtonClick={() => console.log('Artist Alley clicked')}
+                    onButtonClick={() =>
+                        router.push('https://forms.gle/qBmW2UX7UuiWGZjH9')
+                    }
+                    secondButtonText="VIEW ARTISTS"
+                    onSecondButtonClick={() => router.push('/artist-alley')}
+                    secondButtonClassName="bg-[#2C2C2C] hover:bg-[#1A1A1A]"
                 />
 
                 <BoothCard
@@ -68,7 +76,7 @@ const BoothSection = () => {
                     backgroundColor="#FFEBC8"
                     buttonClassName="bg-[#D68500] hover:bg-[#b86f00]"
                     onButtonClick={() =>
-                        console.log('Exhibitors Eporium clicked')
+                        router.push('https://forms.gle/6HhHXZXDaL1wZ5HG8')
                     }
                 />
 
@@ -80,7 +88,7 @@ const BoothSection = () => {
                     backgroundColor="#FFE5D2"
                     buttonClassName="bg-[#CC5200] hover:bg-[#a84300]"
                     onButtonClick={() =>
-                        console.log('Merchant Menagerie clicked')
+                        router.push('https://forms.gle/poSiGfonfgnXb3CF9')
                     }
                 />
 
