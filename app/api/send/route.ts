@@ -19,7 +19,7 @@ export async function POST(request: Request) {
 
     const sender = {
         name: 'Otakufest Site Visitor',
-        address: 'ligerbettina@gmail.com',
+        address: 'no-reply@otakufestph.com',
     };
 
     const receipients = [
