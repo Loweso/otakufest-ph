@@ -67,7 +67,7 @@ export function BoothCard({
             </p>
 
             {(buttonText || secondButtonText) && (
-                <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-4xl mx-auto px-4">
+                <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-4xl mx-auto px-4">
                     {buttonText && (
                         <button
                             onClick={onButtonClick}
