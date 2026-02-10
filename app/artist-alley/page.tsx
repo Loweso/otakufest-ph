@@ -17,7 +17,7 @@ const ArtistAlley = () => {
                         HAVE A LOOK AT WHAT THEY COOKED! 🎨
                         <br />
                         <br /> They&apos;ve been busy in the kitchen, now see
-                        what they&apos;ve served!🔥 The artists are up at #OF24
+                        what they&apos;ve served!🔥 The artists are up at #OF26
                         - featuring our complete, official Artist Alley line-up
                         ✨ Visit them this Otakufest 2026 at SM Seaside City
                         Cebu on March 14-15, 2026!
