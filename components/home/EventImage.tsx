@@ -18,7 +18,7 @@ const EventImage = (props: IProps) => {
     const linkHref = slug ? `/events/${slug}` : eventURL;
 
     const imageContent = (
-        <figure className="relative aspect-square w-30 sm:w-52 md:w-68 lg:w-72 hover:scale-105 duration-200">
+        <figure className="relative aspect-square w-32 sm:w-52 md:w-68 lg:w-72 hover:scale-105 duration-200">
             <Image
                 src={isRevealed ? imageUrl : blackImageURL}
                 alt="guest"
