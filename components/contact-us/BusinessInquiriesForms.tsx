@@ -37,8 +37,11 @@ export const BusinessInquiriesForms = () => {
 
     const sendEmail = () => {
         setIsLoading(true);
-        fetch('/api/send', {
+        fetch('/api/send-business', {
             method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
             body: JSON.stringify(formData),
         })
             .then((response) => response.json())

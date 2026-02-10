@@ -4,21 +4,32 @@ import { readFileSync } from 'fs';
 import path from 'path';
 
 export async function POST(request: Request) {
-    const { name, email, concern, question } = await request.json();
+    const {
+        companyName,
+        contactPerson,
+        email,
+        phone,
+        businessType,
+        inquiryType,
+        message,
+    } = await request.json();
 
     const htmlTemplate = readFileSync(
-        path.join(process.cwd(), 'template', 'emailTemplate.html'),
+        path.join(process.cwd(), 'template', 'businessEmailTemplate.html'),
         'utf-8'
     );
 
     const emailContent = htmlTemplate
-        .replace('{{name}}', name)
+        .replace('{{companyName}}', companyName)
+        .replace('{{contactPerson}}', contactPerson)
         .replace('{{email}}', email)
-        .replace('{{type_of_concern}}', concern)
-        .replace('{{question}}', question);
+        .replace('{{phone}}', phone)
+        .replace('{{businessType}}', businessType)
+        .replace('{{inquiryType}}', inquiryType)
+        .replace('{{message}}', message);
 
     const sender = {
-        name: 'Otakufest Site Visitor',
+        name: 'Otakufest Business Inquiry',
         address: 'no-reply@otakufestph.com',
     };
 
@@ -33,18 +44,16 @@ export async function POST(request: Request) {
         const result = await sendEmail({
             sender,
             receipients,
-            subject: concern,
-            message: question,
+            subject: `Business Inquiry — ${inquiryType}`,
+            message,
             html: emailContent,
         });
 
-        return NextResponse.json({ message: result.accepted }, { status: 250 });
+        return NextResponse.json({ message: result.accepted }, { status: 200 });
     } catch (error) {
         return NextResponse.json(
             { message: `Error: ${error}` },
-            {
-                status: 500,
-            }
+            { status: 500 }
         );
     }
 }

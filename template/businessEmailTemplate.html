@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>OtakuFest - Chef, what do you think?</title>
+        <title>OtakuFest — Business Inquiry</title>
+
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -28,11 +29,6 @@
                 border-top-left-radius: 8px;
                 border-top-right-radius: 8px;
             }
-            .header {
-                display: flex;
-                width: fit-content;
-                margin: 0 auto;
-            }
             .header img {
                 max-width: 150px;
             }
@@ -42,11 +38,7 @@
                 color: #333;
             }
             .content h2 {
-                font-size: 24px;
                 margin-bottom: 10px;
-            }
-            .content p {
-                margin: 10px 0;
             }
             .table-container {
                 width: 100%;
@@ -57,6 +49,7 @@
                 padding: 10px;
                 text-align: left;
                 border-bottom: 1px solid #ddd;
+                vertical-align: top;
             }
             .footer {
                 text-align: center;
@@ -64,44 +57,72 @@
                 font-size: 14px;
                 color: #777;
             }
+            .badge {
+                display: inline-block;
+                padding: 6px 10px;
+                background: #eee;
+                border-radius: 6px;
+                font-size: 13px;
+            }
         </style>
     </head>
+
     <body>
         <div class="container">
             <div class="header-container">
-                <div class="header">
-                    <img
-                        src="https://res.cloudinary.com/dhyoibvtc/image/upload/v1718514125/logo-2024-white_igbjom.png"
-                        alt="OtakuFest"
-                    />
-                    <h1>OTAKUFEST</h1>
-                </div>
+                <img
+                    src="https://res.cloudinary.com/dhyoibvtc/image/upload/v1718514125/logo-2024-white_igbjom.png"
+                />
+                <h1>OTAKUFEST</h1>
             </div>
+
             <div class="content">
-                <h2>Chef, what do you think?</h2>
-                <p>Someone’s cooked up a question for you to respond to!</p>
-                <p>Here’s what was sent:</p>
+                <h2>📩 New Business Inquiry Received</h2>
+
+                <p>
+                    A business partner or organization has submitted an inquiry.
+                </p>
+
                 <table class="table-container">
                     <tr>
-                        <th>Name</th>
-                        <td>{{name}}</td>
+                        <th>Company</th>
+                        <td>{{companyName}}</td>
                     </tr>
+
                     <tr>
-                        <th>E-mail Address</th>
+                        <th>Contact Person</th>
+                        <td>{{contactPerson}}</td>
+                    </tr>
+
+                    <tr>
+                        <th>Email</th>
                         <td>{{email}}</td>
                     </tr>
+
                     <tr>
-                        <th>Type of Concern</th>
-                        <td>{{type_of_concern}}</td>
+                        <th>Phone</th>
+                        <td>{{phone}}</td>
                     </tr>
+
                     <tr>
-                        <th>Question</th>
-                        <td>{{question}}</td>
+                        <th>Business Type</th>
+                        <td><span class="badge">{{businessType}}</span></td>
+                    </tr>
+
+                    <tr>
+                        <th>Inquiry Type</th>
+                        <td><span class="badge">{{inquiryType}}</span></td>
+                    </tr>
+
+                    <tr>
+                        <th>Message</th>
+                        <td>{{message}}</td>
                     </tr>
                 </table>
             </div>
+
             <div class="footer">
-                <p>&copy; 2026 OtakuFest. All rights reserved.</p>
+                <p>2026 OtakuFest. All rights reserved.</p>
             </div>
         </div>
     </body>
