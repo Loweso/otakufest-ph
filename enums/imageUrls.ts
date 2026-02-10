@@ -572,9 +572,9 @@ export const PHYS_TICKETS = {
 export const MERCH = {
     SHIRT: {
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718815905/shirt_both_ixlj4t.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1770734538/SHIRTS_x83vtb.png',
         itemName: 'T-SHIRT',
-        price: 300.0,
+        price: 299.0,
         itemDesc: 'Limited edition, (20-2XL)',
         status: 'Available',
         purchaseURL: ExternalUrl.PRE_ORDER_FORM,
@@ -582,40 +582,50 @@ export const MERCH = {
     },
     TOTE_BAG: {
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718815905/TOTE_BAG_wi9jbx.png',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1770734536/TOTES_foc8k5.png',
         itemName: 'TOTE BAG',
-        price: 180.0,
+        price: 189.0,
         itemDesc: 'Limited edition',
         status: 'Available',
         purchaseURL: ExternalUrl.PRE_ORDER_FORM,
         tag: 'Physical',
     },
-    ACRYLIC_PIN: {
+    KEY_CHAIN: {
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718815906/ACRYLIC_PIN_jqw2iv.png',
-        itemName: 'ACRYLIC PIN',
-        price: 80.0,
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1770734537/KEYCHAIN_qa6fcb.png',
+        itemName: 'KEYCHAIN',
+        price: 89.0,
         itemDesc: 'Limited edition',
         status: 'Available',
         purchaseURL: ExternalUrl.PRE_ORDER_FORM,
         tag: 'Physical',
     },
-    FOLDABLE_FAN: {
+    TWO_SHIRT_BUNDLE: {
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718815905/ROUND_FAN_zo4mxq.png',
-        itemName: 'FOLDABLE FAN',
-        price: 30.0,
-        itemDesc: 'Limited edition',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1770734538/TWO-SHIRT_avmgnj.png',
+        itemName: 'TWO-SHIRT BUNDLE',
+        price: 550.0,
+        itemDesc: 'Limited edition, (20-2XL) Save P48!',
         status: 'Available',
         purchaseURL: ExternalUrl.PRE_ORDER_FORM,
         tag: 'Physical',
     },
-    MERCH_BUNDLE: {
+    BOUNTIFUL_BUNDLE: {
         imageUrl:
-            'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718815905/merch_bundle_zuhj1n.png',
-        itemName: 'ALL-IN MERCH BUNDLE',
-        price: 500.0,
-        itemDesc: 'Save P90!',
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1770734541/BOUNTIFUL_ihsrxl.png',
+        itemName: 'BOUNTIFUL BUNDLE',
+        price: 530.0,
+        itemDesc: 'Get all three and save P47!',
+        status: 'Available',
+        purchaseURL: ExternalUrl.PRE_ORDER_FORM,
+        tag: 'Physical',
+    },
+    TOTE_AND_KEYCHAIN_BUNDLE: {
+        imageUrl:
+            'https://res.cloudinary.com/dpjefqaok/image/upload/v1770734536/TOTE-KEYCHAIN_n8gnzj.png',
+        itemName: 'TOTE BAG & KEYCHAIN BUNDLE',
+        price: 250.0,
+        itemDesc: 'Save P28!',
         status: 'Available',
         purchaseURL: ExternalUrl.PRE_ORDER_FORM,
         tag: 'Physical',
