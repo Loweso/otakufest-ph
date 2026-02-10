@@ -84,10 +84,35 @@ export const ContactUsForms = () => {
                         required
                     >
                         <option value="" disabled hidden>
-                            - Concern -
+                            - Select Concern -
                         </option>
-                        <option value="option1">Option 1</option>
-                        <option value="option2">Option 2</option>
+
+                        <option value="general">General Inquiry</option>
+                        <option value="event_info">
+                            Event Information & Schedule
+                        </option>
+                        <option value="competition">
+                            Competition Concerns
+                        </option>
+                        <option value="competition_registration">
+                            Competition Registration Help
+                        </option>
+                        <option value="artist_alley">
+                            Artist Alley Inquiries
+                        </option>
+                        <option value="tickets_merch">
+                            Tickets & Merchandise
+                        </option>
+                        <option value="sponsorship">
+                            Sponsor & Partnership Inquiries
+                        </option>
+                        <option value="technical">
+                            Website / Technical Issue
+                        </option>
+                        <option value="content_correction">
+                            Content Correction Request
+                        </option>
+                        <option value="other">Other</option>
                     </select>
                 </div>
                 <textarea
