@@ -29,9 +29,9 @@ export const HomePage = () => {
     };
     const news = [
         {
-            title: 'Otakufest 2024',
+            title: 'Otakufest 2026',
             description:
-                'Connecting the world, one hobby at a time \n August 10-11, 2024 at SM Seaside Cebu',
+                'Connecting the world, one hobby at a time \n March 14-15, 2026 at SM Seaside Cebu',
             link: '',
         },
         {

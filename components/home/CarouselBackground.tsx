@@ -47,7 +47,7 @@ const CarouselBackground: React.FC<CarouselBackgroundProps> = ({
                     </span>
                     <div className="flex flex-col items-center">
                         <span className="lg:text-2xl text-[0.7rem] font-semibold z-10">
-                            August 17-18, 2024
+                            March 14-15, 2026
                         </span>
                         <figure className="lg:w-44 w-32 z-10">
                             <Image

@@ -41,7 +41,7 @@ const EventSection = () => {
                 ))}
             </div>
 
-            <p className="text-2xl md:text-3xl font-bold mt-10 sm:mt-20">
+            <p className="text-2xl md:text-3xl font-bold mt-4 sm:mt-10">
                 PARTNERED COMPETITIONS
             </p>
             <p className="text-xs sm:text-sm md:text-xl mb-5">

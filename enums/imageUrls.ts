@@ -406,18 +406,18 @@ export const PARTNERED_EVENTS = {
         blackImageUrl:
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892153/BEYBLADE_ICON_rjhv7w.png',
         eventName: 'Beyblade Competition',
-        eventURL: '',
+        eventURL: 'https://forms.gle/yZ2PKXp3oARA4hgE8',
         description: {
-            intro: '',
-            body: ``,
-            end: ``,
+            intro: 'Gear up for fast-paced action and intense Beyblade showdowns!',
+            body: `Every launch counts as you aim for victory against fellow bladers. Step into the arena and fight for glory, bragging rights, and ultimate bragging power!`,
+            end: `Please be reminded that registration for Otakufest’s Beyblade Competition closes on: March 13, 2026 11:59 PM!`,
             mechanics: {
                 title: '🌾 Check out our mechanics:',
                 label: '>> [How to Join] <<',
-                url: '',
+                url: 'https://docs.google.com/document/d/1OSeejZcH6GBhf0Bqtxij-1Zenf4xITnKhmbcAkgKbMk/preview?tab=t.0',
             },
         },
-        isRevealed: false,
+        isRevealed: true,
     },
     OTS_GUNPLA: {
         slug: 'ots-gunpla',
@@ -438,7 +438,7 @@ export const PARTNERED_EVENTS = {
                 url: 'https://docs.google.com/document/d/1sdZvgG1BNMbwXK9HlFJR9v0dl6OFEh0_aGZSSnmCCk4/preview?fbclid=IwY2xjawPcKHtleHRuA2FlbQIxMABicmlkETFnUmZqeWF5NG0wbnQ3QjlMc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjuSsyXSBO0sYK5sUgfLmzI0uFAcYRsnDa5avjDqnIuV_Dj8j8zT4KLv-c0C_aem_5q55mdMOJpwYTe9zlPcRpQ&tab=t.0',
             },
         },
-        isRevealed: false,
+        isRevealed: true,
     },
     CS_GUNPLA: {
         slug: 'cs-gunpla',
@@ -467,18 +467,18 @@ export const PARTNERED_EVENTS = {
         blackImageUrl:
             'https://res.cloudinary.com/dpjefqaok/image/upload/v1768892152/DND_ICON_g6mpkz.png',
         eventName: 'Dungeons & Dragons Competition',
-        eventURL: '',
+        eventURL: 'https://www.facebook.com/share/p/1BLgp2wnUo/',
         description: {
-            intro: '',
-            body: ``,
-            end: ``,
+            intro: 'WE WANT YOU TO ROLL...🎲...on over to the D&D Workshop.',
+            body: `Battle your way through the Character Sheet to find the Character for YOU! 🫵 Let Dreamforge Cebu's Creative Fantasy Group - CFG guide your way through a new adventure in #Otakufest2026's Dungeons & Dragons Workshop! `,
+            end: `The workshop is FREE! Happening in Workshop Tent 2 on March 14 & 15, 2026, sessions will be happening THROUGHOUT THE EVENT so it's never too late to start your adventure.`,
             mechanics: {
                 title: '🌾 Check out our mechanics:',
                 label: '>> [How to Join] <<',
-                url: '',
+                url: 'https://www.facebook.com/share/p/1BLgp2wnUo/',
             },
         },
-        isRevealed: false,
+        isRevealed: true,
     },
 };
 
@@ -507,9 +507,9 @@ export const ETICKETS = {
     DAY1: {
         imageUrl:
             'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718719154/e-ticket-1_hjptbw.png',
-        itemName: 'OTAKUFEST 2024 DAY 1 ONLY PASS',
+        itemName: 'OTAKUFEST 2026 DAY 1 ONLY PASS',
         price: 220.0,
-        itemDesc: 'For AUGUST 17 ONLY',
+        itemDesc: 'For MARCH 14 ONLY',
         status: 'Available',
         purchaseURL: ExternalUrl.PRE_ORDER_FORM,
         tag: 'Digital',
@@ -517,9 +517,9 @@ export const ETICKETS = {
     DAY2: {
         imageUrl:
             'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718719154/e-ticket-2_orpvbj.png',
-        itemName: 'OTAKUFEST 2024 DAY 2 ONLY PASS',
+        itemName: 'OTAKUFEST 2026 DAY 2 ONLY PASS',
         price: 220.0,
-        itemDesc: 'For AUGUST 18 ONLY',
+        itemDesc: 'For MARCH 15 ONLY',
         status: 'Available',
         purchaseURL: ExternalUrl.PRE_ORDER_FORM,
         tag: 'Digital',
@@ -527,7 +527,7 @@ export const ETICKETS = {
     BOTH_DAYS: {
         imageUrl:
             'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718719154/e-ticket-both_rvgjy0.png',
-        itemName: 'OTAKUFEST 2024 TWO DAY BUNDLE',
+        itemName: 'OTAKUFEST 2026 TWO DAY BUNDLE',
         price: 420.0,
         itemDesc: 'SAVE P20!',
         status: 'Available',
@@ -540,9 +540,9 @@ export const PHYS_TICKETS = {
     DAY1: {
         imageUrl:
             'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718719155/physical-1_xkpzxy.png',
-        itemName: 'OTAKUFEST 2024 DAY 1 ONLY PHYSICAL PASS',
+        itemName: 'OTAKUFEST 2026 DAY 1 ONLY PHYSICAL PASS',
         price: 230.0,
-        itemDesc: 'For AUGUST 17 ONLY',
+        itemDesc: 'For MARCH 14 ONLY',
         status: 'Meetup date has already passed. Keep posted for more updates!',
         purchaseURL: ExternalUrl.PRE_ORDER_FORM,
         tag: 'Physical',
@@ -550,9 +550,9 @@ export const PHYS_TICKETS = {
     DAY2: {
         imageUrl:
             'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718719154/physical-2_fgt7fi.png',
-        itemName: 'OTAKUFEST 2024 DAY 2 ONLY PHYSICAL PASS',
+        itemName: 'OTAKUFEST 2026 DAY 2 ONLY PHYSICAL PASS',
         price: 230.0,
-        itemDesc: 'For AUGUST 18 ONLY',
+        itemDesc: 'For MARCH 15 ONLY',
         status: 'Meetup date has already passed. Keep posted for more updates!',
         purchaseURL: ExternalUrl.PRE_ORDER_FORM,
         tag: 'Physical',
@@ -560,7 +560,7 @@ export const PHYS_TICKETS = {
     BOTH_DAYS: {
         imageUrl:
             'https://res.cloudinary.com/dhyoibvtc/image/upload/v1718719154/physical-both_ap9ptk.png',
-        itemName: 'OTAKUFEST 2024 TWO DAY PHYSICAL BUNDLE',
+        itemName: 'OTAKUFEST 2026 TWO DAY PHYSICAL BUNDLE',
         price: 450.0,
         itemDesc: 'Save P10 for both days',
         status: 'Meetup date has already passed. Keep posted for more updates!',

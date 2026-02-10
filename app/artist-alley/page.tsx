@@ -19,8 +19,8 @@ const ArtistAlley = () => {
                         <br /> They&apos;ve been busy in the kitchen, now see
                         what they&apos;ve served!🔥 The artists are up at #OF24
                         - featuring our complete, official Artist Alley line-up
-                        ✨ Visit them this Otakufest 2024 at SM Seaside City
-                        Cebu on August 17-18, 2024!
+                        ✨ Visit them this Otakufest 2026 at SM Seaside City
+                        Cebu on March 14-15, 2026!
                     </p>
                 </div>
 

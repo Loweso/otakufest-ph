@@ -18,7 +18,7 @@ const EventImage = (props: IProps) => {
     const linkHref = slug ? `/events/${slug}` : eventURL;
 
     const imageContent = (
-        <figure className="relative aspect-square w-28 sm:w-50 md:w-64 lg:w-70 hover:scale-105 duration-200">
+        <figure className="relative aspect-square w-30 sm:w-52 md:w-68 lg:w-72 hover:scale-105 duration-200">
             <Image
                 src={isRevealed ? imageUrl : blackImageURL}
                 alt="guest"
@@ -35,8 +35,8 @@ const EventImage = (props: IProps) => {
             ) : (
                 imageContent
             )}
-            <div className="flex flex-col items-center flex-1 justify-start">
-                <p className="text-lg md:text-md lg:text-lg xl:text-xl uppercase font-bold text-sm/6 leading-none">
+            <div className="flex flex-col items-center flex-1 justify-center">
+                <p className="text-lg md:text-md lg:text-lg xl:text-xl uppercase font-bold text-center leading-6">
                     {isRevealed ? name : '??? Competition'}
                 </p>
             </div>

@@ -34,7 +34,7 @@ const SalesSection = () => {
                     <p className="text-justify">
                         <b>PRE-ORDERS FOR TICKET SALES HAS NOW BEGUN!</b> Skip
                         all the hassle of lining up, so you can fully focus on
-                        getting the most out of OtakuFest &apos;24!
+                        getting the most out of OtakuFest &apos;26!
                     </p>
                     <div className="flex flex-row justify-evenly rounded-full w-full md:w-1/2 p-2 border-site-secondary border-4">
                         <FaCalendarAlt className="size-20" />
@@ -61,7 +61,7 @@ const SalesSection = () => {
                 ))}
             </div>
 
-            {/* PHYSICAL TICKETS */}
+            {/* PHYSICAL TICKETS
             <div className="flex flex-col md:flex-row items-center bg-site-main text-site-secondary text-xs sm:text-sm md:text-md lg:text-xl p-5 rounded-2xl">
                 <figure className="relative aspect-square scale-100 w-1/3 md:scale-75 mt-4">
                     <Image
@@ -103,9 +103,9 @@ const SalesSection = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
-            {/* PHYSICAL TICKETS GRID */}
+            {/* PHYSICAL TICKETS GRID
             <div className="gap-2 lg:gap-8 w-full text-site-main grid grid-cols-2 lg:grid-cols-3 items-center justify-around text-xs sm:text-sm md:text-md lg:text-xl md:flex-row">
                 {Object.values(PHYS_TICKETS).map((currentItem) => (
                     <SaleItem
@@ -119,7 +119,7 @@ const SalesSection = () => {
                         tag={currentItem.tag}
                     />
                 ))}
-            </div>
+            </div> */}
 
             {/* MERCH */}
             <div className="flex flex-col md:flex-row items-center bg-site-main text-site-secondary text-xs sm:text-sm md:text-md lg:text-xl p-5 rounded-2xl">
@@ -133,11 +133,11 @@ const SalesSection = () => {
                 </figure>
                 <div className="flex flex-col w-full items-center justify-center gap-2 leading-2 md:gap-4 md:pr-5">
                     <p className="text-center text-lg md:text-3xl font-bold">
-                        PREORDER EXCLUSIVE #OF24 MERCH
+                        PREORDER EXCLUSIVE #OF26 MERCH
                     </p>
                     <p className="text-justify">
                         Complete your Otakufest experience by preordering these{' '}
-                        <b>LIMITED EDITION</b> Otakufest 2024 merch! Stocks are
+                        <b>LIMITED EDITION</b> Otakufest 2026 merch! Stocks are
                         limited, so make sure you order RIGHT AWAY!{' '}
                         <i>
                             All merch preordered online aka via this form shall
@@ -174,7 +174,7 @@ const SalesSection = () => {
                 <div className="flex flex-col sm:flex-row items-center gap-2">
                     <p>
                         For concerns regarding your purchases from Otakufest
-                        2024, consider{' '}
+                        2026, consider{' '}
                     </p>
                     <InternalLink
                         content="reaching out to us"
